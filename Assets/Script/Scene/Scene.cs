@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using System.Text;
 
 public class Scene
 {
@@ -37,15 +38,11 @@ public class Scene
 	}
 	public void DebugDraw()
 	{
-/*
 		StringBuilder text = new StringBuilder ();
-		
-		text.Append ("Scene : " + GetType().Name);
-		text.Append ((count).ToString ("0"));
-		text.Append ("\n");
+		text.Append ("Scene : " + GetType().Name + "\n");
+		text.Append ("Count : " + (count).ToString ("0") + "\n");
 		GUI.Box (new Rect (5,300,310,100),"");
 		GUI.Label (new Rect (10,305,1000,200),text.ToString ());
-*/
 	}
 }
 

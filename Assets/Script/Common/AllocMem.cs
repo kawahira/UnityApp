@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Text;
  
-[ExecuteInEditMode ()]
+[ExecuteInEditMode ()] // 編集中も処理を実行可能
 public class AllocMem : MonoBehaviour {
  
 	public bool show = true;
@@ -65,27 +65,19 @@ public class AllocMem : MonoBehaviour {
  
 		text.Append ("Last collect delta			");
 		text.Append (lastDeltaTime.ToString ("0.000"));
-		text.Append ("s (");
+		text.Append ("s\n");
+		text.Append ("avg ");
 		text.Append ((1F/lastDeltaTime).ToString ("0.0"));
-		
-		text.Append (" fps)\n");
+		text.Append (" fps) ");
 
 		text.Append ("target:" + (Application.targetFrameRate).ToString());
 		text.Append ("  delta:" + (DeltaTime.Instance.GetScale()).ToString ("0.0000"));
-		text.Append ("s\n");
 		if (showFPS) {
 			text.Append ("\n"+(1F/Time.deltaTime).ToString ("0.0")+" fps");
 		}
  
 		GUI.Box (new Rect (5,5,310,100+(showFPS ? 16 : 0)),"");
 		GUI.Label (new Rect (10,5,1000,200),text.ToString ());
-		/*GUI.Label (new Rect (5,5,1000,200),
-			"Currently allocated			"+(allocMem/1000000F).ToString ("0")+"mb\n"+
-			"Peak allocated				"+(peakAlloc/1000000F).ToString ("0")+"mb "+
-			("(last	collect"+(collectAlloc/1000000F).ToString ("0")+" mb)" : "")+"\n"+
-			"Allocation rate				"+(allocRate/1000000F).ToString ("0.0")+"mb\n"+
-			"Collection space			"+delta.ToString ("0.00")+"s\n"+
-			"Last collect delta			"+lastDeltaTime.ToString ("0.000") + " ("+(1F/lastDeltaTime).ToString ("0.0")+")");*/
 	}
  
 	private float lastCollect = 0;
