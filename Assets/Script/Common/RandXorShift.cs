@@ -57,7 +57,7 @@ public sealed class RandXorShift
         for (int i = 0; i < rndArray.Length; ++i)
         {
             rndArray[i].Seed(seed);
-            seed = rndArray[i].Next();
+            seed = rndArray[i].Next() + i;
         }
     }
     /// <summary>
@@ -91,6 +91,7 @@ public sealed class RandXorShift
         /// </summary>
         public void Seed(int seed)
         {
+			Debug.Assert(seed != 0);
             w = seed;
             x = seed << 16 + seed >> 16;
             y = w + x;
