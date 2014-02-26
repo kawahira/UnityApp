@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Sequence : MonoBehaviour
 {
-	Scene CurrentScene = null;
-	Scene PrevScene = null;
+	[SerializeField]  GUISkin skin;
+	[SerializeField]  Scene CurrentScene = null;
+	[SerializeField]  Scene PrevScene = null;
 	void Start()
 	{
-		CurrentScene = new Boot ();
+		CurrentScene = new Title ();
 		PrevScene = CurrentScene;
 		StartCoroutine(Coroutine());
 	}
@@ -57,6 +58,7 @@ public class Sequence : MonoBehaviour
 	}
 	public void OnGUI () 
 	{
-		CurrentScene.DebugDraw();
+		GUI.skin = skin;
+		CurrentScene.DebugDraw(0.0f, 0.0f);
 	}
 }

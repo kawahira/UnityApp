@@ -22,7 +22,7 @@ public class Scene
 	public virtual bool isLoad()
 	{
 		++count;
-		return count > 600 ? true : false;
+		return count > 60000 ? true : false;
 	}
 	public virtual bool isDone()
 	{
@@ -36,7 +36,7 @@ public class Scene
 	{
 		return null;
 	}
-	public void DebugDraw()
+	public virtual void DebugDraw(float x, float y)
 	{
 		StringBuilder text = new StringBuilder ();
 		text.Append ("Scene : " + GetType().Name + "\n");
