@@ -7,13 +7,13 @@ public class Sequence : MonoBehaviour
 	[SerializeField] public GUISkin skin;
 	[SerializeField] public Scene CurrentScene = null;
 	[SerializeField] public Scene PrevScene = null;
-	void Start()
+	public void Start()
 	{
 		CurrentScene = new Title ();
 		PrevScene = CurrentScene;
 		StartCoroutine(Coroutine());
 	}
-	IEnumerator Coroutine()
+	 private IEnumerator Coroutine()
 	{
 		for (;;) 
 		{

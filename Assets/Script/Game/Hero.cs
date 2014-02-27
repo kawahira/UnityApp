@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class Hero : MonoBehaviour {
+public class Hero : MonoBehaviour 
+{
 	[SerializeField] public Vector2 pos;
 	[SerializeField] public Vector2 posPrev;
 	[SerializeField] public Vector2 accel;
@@ -10,15 +11,18 @@ public class Hero : MonoBehaviour {
 	[SerializeField] public float maxSpeedY;
 	private bool facingRight = false;
 	// Use this for initialization
-	void Start () {
+	public void Start () 
+	{
 	
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	public void Update () 
+	{
 	
 	}
-	void FixedUpdate () {
+	public void FixedUpdate () 
+	{
 		float v = Input.GetAxis("Vertical");
 		float h = Input.GetAxis("Horizontal");
 		Vector2 vector;

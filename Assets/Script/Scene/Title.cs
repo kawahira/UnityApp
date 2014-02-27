@@ -18,8 +18,8 @@ public class Title : Scene
 		float xpos = x;
 		float ypos = y;
 		int backupFontSize = GUI.skin.label.fontSize;
-		float emSizeScale = 96.0f / 72.0f;
-		float fontHeight  = (float)GUI.skin.label.fontSize * emSizeScale;
+		float emsize = 96.0f / 72.0f;
+		float fontHeight  = (float)GUI.skin.label.fontSize * emsize;
 		float fontWidth   = fontHeight * 12.0f;	// magic number.
 		float titleHeight = fontHeight; 
 		float helpHeight  = fontHeight / 4.0f;

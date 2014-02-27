@@ -24,9 +24,9 @@ public class DeltaTime
 			return instance;
 		}
 	}
-	private int TargetFrameRate;
-	private float Delta;
-	private float Scale = 1.0f;
-	private float Base60FrameDelta = 1.0f / 60.0f;
-	public float GetScale() { return (Time.deltaTime / Base60FrameDelta) * Scale; }
+	private int targetFrameRate;
+	private float delta;
+	private float scale = 1.0f;
+	private float base60FrameDelta = 1.0f / 60.0f;
+	public float GetScale() { return (Time.deltaTime / base60FrameDelta) * scale; }
 }
