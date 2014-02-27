@@ -35,9 +35,9 @@ public class Hero : MonoBehaviour {
 		if((h > 0 && !facingRight) || (h < 0 && facingRight))
 		{
 			//右を向いているかどうかを、入力方向をみて決める
-			facingRight = (h > 0);
+			facingRight = h > 0;
 			//localScale.xを、右を向いているかどうかで更新する
-			transform.localScale = new Vector3((facingRight ? -1 : 1), 1, 1);
+			transform.localScale = new Vector3(facingRight ? -1 : 1, 1, 1);
 		}
 		GetComponent<Animator>().SetFloat("MoveSpeed",Mathf.Abs(h)); 
 	}

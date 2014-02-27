@@ -1,7 +1,7 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
 using System.Text;
- 
+using UnityEngine;
+
 [ExecuteInEditMode ()] // 編集中も処理を実行可能
 public class AllocMem : MonoBehaviour {
  
@@ -70,8 +70,8 @@ public class AllocMem : MonoBehaviour {
 		text.Append ((1F/lastDeltaTime).ToString ("0.0"));
 		text.Append (" fps) ");
 
-		text.Append ("target:" + (Application.targetFrameRate).ToString());
-		text.Append ("  delta:" + (DeltaTime.Instance.GetScale()).ToString ("0.0000"));
+		text.Append ("target:" + Application.targetFrameRate.ToString());
+		text.Append ("  delta:" + DeltaTime.Instance.GetScale().ToString ("0.0000"));
 		if (showFPS) {
 			text.Append ("\n"+(1F/Time.deltaTime).ToString ("0.0")+" fps");
 		}

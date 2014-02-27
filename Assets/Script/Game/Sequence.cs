@@ -22,12 +22,12 @@ public class Sequence : MonoBehaviour
 			do
 			{
 				yield return null;
-			} while (CurrentScene.isLoad()== false );
+			} while (CurrentScene.IsLoad()== false );
 
 			CurrentScene.RequestStart();
 			do
 			{
-				if ( CurrentScene.isDone() )
+				if ( CurrentScene.IsDone() )
 				{
 					break;
 				}
@@ -36,7 +36,7 @@ public class Sequence : MonoBehaviour
 			CurrentScene.RequestUnload();
 			do
 			{
-				if ( CurrentScene.isUnload() )
+				if ( CurrentScene.IsUnload() )
 				{
 					break;
 				}

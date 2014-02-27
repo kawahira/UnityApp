@@ -1,6 +1,6 @@
-using UnityEngine;
 using System;
 using System.Text;
+using UnityEngine;
 
 public class Scene
 {
@@ -19,16 +19,16 @@ public class Scene
 	public virtual void RequestUnload()
 	{
 	}
-	public virtual bool isLoad()
+	public virtual bool IsLoad()
 	{
 		++count;
-		return count > 60000 ? true : false;
+		return count > 600 ? true : false;
 	}
-	public virtual bool isDone()
+	public virtual bool IsDone()
 	{
 		return true;
 	}
-	public virtual bool isUnload()
+	public virtual bool IsUnload()
 	{
 		return true;
 	}
