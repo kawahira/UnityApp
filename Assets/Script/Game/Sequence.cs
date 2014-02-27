@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Sequence : MonoBehaviour
 {
-	[SerializeField]  GUISkin skin;
-	[SerializeField]  Scene CurrentScene = null;
-	[SerializeField]  Scene PrevScene = null;
+	[SerializeField] public GUISkin skin;
+	[SerializeField] public Scene CurrentScene = null;
+	[SerializeField] public Scene PrevScene = null;
 	void Start()
 	{
 		CurrentScene = new Title ();

@@ -1,7 +1,7 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
-class DeltaTime
+public class DeltaTime
 {
 	private static volatile DeltaTime instance;
 	private static object syncRoot = new Object();

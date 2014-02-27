@@ -1,13 +1,13 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
 public class Hero : MonoBehaviour {
-	[SerializeField] Vector2 pos;
-	[SerializeField] Vector2 posPrev;
-	[SerializeField] Vector2 accel;
-	[SerializeField] Vector2 maxSpeed;
-	[SerializeField] float gravity;
-	[SerializeField] float maxSpeedY;
+	[SerializeField] public Vector2 pos;
+	[SerializeField] public Vector2 posPrev;
+	[SerializeField] public Vector2 accel;
+	[SerializeField] public Vector2 maxSpeed;
+	[SerializeField] public float gravity;
+	[SerializeField] public float maxSpeedY;
 	private bool facingRight = false;
 	// Use this for initialization
 	void Start () {

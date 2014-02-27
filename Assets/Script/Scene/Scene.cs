@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Scene
 {
-	int count;
+	private int count;
 	public virtual void Initialize()
 	{
 		Debug.Log(GetType().Name);
@@ -40,8 +40,8 @@ public class Scene
 	{
 		StringBuilder text = new StringBuilder ();
 		text.Append ("Scene : " + GetType().Name + "\n");
-		text.Append ("Count : " + (count).ToString ("0") + "\n");
-		GUI.Box (new Rect (5,300,310,100),"");
+		text.Append ("Count : " + count.ToString ("0") + "\n");
+		GUI.Box (new Rect (5,300,310,100),string.Empty);
 		GUI.Label (new Rect (10,305,1000,200),text.ToString ());
 	}
 }

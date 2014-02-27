@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Title : Scene
 {
-	[SerializeField]  Vector2 scrollPosition;
+	[SerializeField] public Vector2 scrollPosition;
 	private List<ListItem> list = new List<ListItem>();  
  	public Title()
 	{

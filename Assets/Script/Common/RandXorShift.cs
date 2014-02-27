@@ -7,12 +7,12 @@ using System.Diagnostics;
 /// </summary>
 public sealed class RandXorShift
 {
-    public XorShift128 Player      { get { return rndArray[0]; } }
-    public XorShift128 Stage       { get { return rndArray[1]; } }
-    public XorShift128 Itme        { get { return rndArray[2]; } }
-    public XorShift128 Enemy     { get { return rndArray[3]; } }
-    public XorShift128 Menu       { get { return rndArray[4]; } }
-    public XorShift128 Rule         { get { return rndArray[5]; } }
+    public XorShift128 Player   { get { return rndArray[0]; } }
+    public XorShift128 Stage    { get { return rndArray[1]; } }
+    public XorShift128 Itme     { get { return rndArray[2]; } }
+    public XorShift128 Enemy    { get { return rndArray[3]; } }
+    public XorShift128 Menu     { get { return rndArray[4]; } }
+    public XorShift128 Rule     { get { return rndArray[5]; } }
     public XorShift128 Sequence { get { return rndArray[6]; } }
 
     private XorShift128[] rndArray = new XorShift128[7];
@@ -20,7 +20,7 @@ public sealed class RandXorShift
     private static object syncRoot = new Object();
 
     /// <summary>
-    /// シングルトン取得
+    /// シングルトン取得 
     /// </summary>
     public static RandXorShift Instance
     {
@@ -86,15 +86,19 @@ public sealed class RandXorShift
         /// <summary>
         /// コンストラクター(指定seedで初期化)
         /// </summary>
-        public XorShift128(int seed) { Seed(seed); enable = true; }
+        public XorShift128(int seed)
+		{
+			Seed(seed); 
+			enable = true;
+		}
         /// <summary>
         /// Seedで初期化
         /// </summary>
         public void Seed(int seed)
         {
-			Debug.Assert(seed != 0);
+			Debug.Assert(seed != 0, "seed 0 is illegal paarmeter");
             w = seed;
-            x = seed << 16 + seed >> 16;
+            x = (seed << 16) + (seed >> 16);
             y = w + x;
             z = x ^ y;
             CallCount = 0;
@@ -105,10 +109,10 @@ public sealed class RandXorShift
         public override int Next()
         {
             ++CallCount;
-            Debug.Assert(enable);
+            Debug.Assert(enable, "Call Disable Randam");
             int t = x ^ (x << 11);
             x = y; y = z; z = w;
-            return (w = (w ^ (w >> 19)) ^ (t ^ (t >> 8)));
+            return w = (w ^ (w >> 19)) ^ (t ^ (t >> 8));
         }
         /// <summary>
         /// 乱数取得 ( 最少、最大指定 )

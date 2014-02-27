@@ -72,11 +72,12 @@ public class AllocMem : MonoBehaviour {
 
 		text.Append ("target:" + Application.targetFrameRate.ToString());
 		text.Append ("  delta:" + DeltaTime.Instance.GetScale().ToString ("0.0000"));
-		if (showFPS) {
+		if (showFPS)
+		{
 			text.Append ("\n"+(1F/Time.deltaTime).ToString ("0.0")+" fps");
 		}
  
-		GUI.Box (new Rect (5,5,310,100+(showFPS ? 16 : 0)),"");
+		GUI.Box (new Rect (5,5,310,100+(showFPS ? 16 : 0)),string.Empty);
 		GUI.Label (new Rect (10,5,1000,200),text.ToString ());
 	}
  
