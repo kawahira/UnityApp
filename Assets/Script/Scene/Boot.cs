@@ -1,5 +1,6 @@
-using UnityEngine;
 using System;
+using UnityEngine;
+
 public class Boot : Scene
 {
 	public override Scene GetNext()

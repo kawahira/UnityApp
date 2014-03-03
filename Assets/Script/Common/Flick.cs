@@ -1,5 +1,6 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
+
 public class FlickThrowTouch : MonoBehaviour 
 {
 	public Vector2 touchStart;
@@ -10,16 +11,15 @@ public class FlickThrowTouch : MonoBehaviour
 	public float ballSpeed = 0;
 	public Vector3 worldAngle;
 	public GameObject ballPrefab;
-	private bool GetVelocity = false;
+	private bool getVelocity = false;
 	public AudioClip ballAudio;  //yes
 	public float comfortZone = 0.0f;
 	public bool couldBeSwipe;
 	public float startCountdownLength = 0.0f;
 	public bool startTheTimer = false;
-	static bool globalGameStart = false;
-	static bool shootEnable = false;
+	private static bool shootEnable = false;
 	private float startGameTimer = 0.0f;
-	void  Start () 
+	public void  Start () 
 	{
 		startTheTimer = true;
 		Time.timeScale = 1;
@@ -28,7 +28,7 @@ public class FlickThrowTouch : MonoBehaviour
 			Time.fixedDeltaTime = 0.01f;
 		}
 	}
-	void Update () 
+	public void Update () 
 	{
 		if (startTheTimer) 
 		{
@@ -37,7 +37,6 @@ public class FlickThrowTouch : MonoBehaviour
 		
 		if (startGameTimer > startCountdownLength)
 		{
-			globalGameStart = true;
 			shootEnable = true;
 			startTheTimer = false;
 			startGameTimer = 0;
@@ -54,7 +53,7 @@ public class FlickThrowTouch : MonoBehaviour
 					flickTime = 5;
 					timeIncrease();
 					couldBeSwipe = true;
-					GetVelocity = true;
+					getVelocity = true;
 					touchStart= touch.position;
 					break;
 				case TouchPhase.Moved:
@@ -77,7 +76,7 @@ public class FlickThrowTouch : MonoBehaviour
 					float swipeDist = (touch.position - touchStart).magnitude;
 					if (couldBeSwipe && swipeDist > comfortZone) 
 					{
-						GetVelocity = false;
+						getVelocity = false;
 						touchEnd = touch.position;
 						Rigidbody ball = Instantiate(ballPrefab, new Vector3(0.0f,2.6f,-11.0f), Quaternion.identity) as Rigidbody;
 						GetSpeed();
@@ -88,7 +87,7 @@ public class FlickThrowTouch : MonoBehaviour
 				default :
 					break;
 				}
-				if (GetVelocity) 
+				if (getVelocity) 
 				{
 					flickTime++;
 				}
@@ -99,14 +98,14 @@ public class FlickThrowTouch : MonoBehaviour
 			Debug.Log("shot disabled!");
 		}
 	}
-	void timeIncrease() 
+	public void timeIncrease() 
 	{
-		if (GetVelocity) 
+		if (getVelocity) 
 		{
 			flickTime++;
 		}
 	}
-	void GetSpeed() 
+	public void GetSpeed() 
 	{
 		flickLength = 90;
 		if (flickTime > 0) 
@@ -122,7 +121,7 @@ public class FlickThrowTouch : MonoBehaviour
 		Debug.Log("flick was" + flickTime);
 		flickTime = 5;
 	}
-	void GetAngle () 
+	public void GetAngle () 
 	{
 		worldAngle = camera.ScreenToWorldPoint(new Vector3 (touchEnd.x, touchEnd.y + 800.0f, ((camera.nearClipPlane - 100.0f)*1.8f)));
 	}
