@@ -4,13 +4,14 @@ using System.Collections.Generic;
 
 namespace Asset
 {
-	public class BlockList
-	{
-		private List<Block>	list = new List<Block>();
-		public string RootURL;
-		public void Add(Block block)
+		public class BlockList
 		{
-			list.Add(block);
+				private List<Block>	list = new List<Block> ();
+				public string RootURL;
+
+				public void Add (Block block)
+				{
+						list.Add (block);
+				}
 		}
-	}
 }
