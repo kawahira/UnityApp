@@ -46,12 +46,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\Asset\Block.cs" />
+     <Compile Include="Assets\Script\Asset\BlockList.cs" />
+     <Compile Include="Assets\Script\Asset\BlockMultiThread.cs" />
+     <Compile Include="Assets\Script\Asset\Bundle.cs" />
+     <Compile Include="Assets\Script\Asset\Text.cs" />
      <Compile Include="Assets\Script\Common\AllocMem.cs" />
      <Compile Include="Assets\Script\Common\Boot.cs" />
      <Compile Include="Assets\Script\Common\DeltaTime.cs" />
+     <Compile Include="Assets\Script\Common\FileAssetBundle.cs" />
      <Compile Include="Assets\Script\Common\FileBuffer.cs" />
      <Compile Include="Assets\Script\Common\Flick.cs" />
-     <Compile Include="Assets\Script\Common\Lerp.cs" />
+     <Compile Include="Assets\Script\Common\GetType.cs" />
+     <Compile Include="Assets\Script\Common\Pair.cs" />
      <Compile Include="Assets\Script\Common\RandXorShift.cs" />
      <Compile Include="Assets\Script\Common\ResourceAccess.cs" />
      <Compile Include="Assets\Script\Common\Spline.cs" />
@@ -62,6 +69,13 @@
      <Compile Include="Assets\Script\Scene\Boot.cs" />
      <Compile Include="Assets\Script\Scene\Scene.cs" />
      <Compile Include="Assets\Script\Scene\Title.cs" />
+     <Compile Include="Assets\Script\SerializeData\FileList.cs" />
+     <Compile Include="Assets\Script\SerializeData\LocalSaveData\Header.cs" />
+     <Compile Include="Assets\Script\SerializeData\LocalSaveData\Scene.cs" />
+     <Compile Include="Assets\Script\SerializeData\MapData\Header.cs" />
+     <Compile Include="Assets\Script\SerializeData\MapData\Layer.cs" />
+     <Compile Include="Assets\Script\SerializeData\MapData\Terrains.cs" />
+     <Compile Include="Assets\Script\SerializeData\MapData\Tilesets.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionComponent.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionComponentExt.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionException.cs" />

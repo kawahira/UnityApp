@@ -1,3 +1,4 @@
+// <copyright file="Title.cs" >(C)2014</copyright>
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,54 +11,45 @@ public class Title : Scene
 	{
 		for ( int i = 0 ; i < 30 ; ++i )
 		{
-			scrollList.Add ("title" + i.ToString(),"help" + i.ToString());
+			scrollList.pairData.Add (new ScrollPairData("title" + i.ToString(),"help" + i.ToString()));
 		}
 	}
 	public override void DebugDraw(float x, float y)
 	{
-		float deltaTime = 0.001f;
-		float xpos = x;
-		float ypos = y;
-		int backupFontSize = GUI.skin.label.fontSize;
-		float emsize = 96.0f / 72.0f;
- 		float fontHeight  = (float)GUI.skin.label.fontSize * emsize;
-		float fontWidth   = fontHeight * 12.0f;	// magic number.
-		float titleHeight = fontHeight; 
-		float helpHeight  = fontHeight / 4.0f;
-		float totalHeight = (titleHeight + helpHeight) * 30;
+		int backupFontSize 	= GUI.skin.label.fontSize;
+		float xpos 			= x;
+		float ypos 			= y;
+		float emsize 		= 96.0f / 72.0f;
+ 		float fontHeight  	= (float)GUI.skin.label.fontSize * emsize;
+		float fontWidth   	= fontHeight * 12.0f;	// magic number.
+		float titleHeight 	= fontHeight; 
+		float helpHeight  	= fontHeight / 4.0f;
+		float totalHeight 	= (titleHeight + helpHeight) * scrollList.pairData.Count;
 		
 		scrollList.position = GUI.BeginScrollView (new Rect(0,0,Screen.width,Screen.height),scrollList.position,new Rect(0,0,Screen.width,totalHeight));
-		// update
-		for ( int i = 0 ; i < scrollList.pairData.Count ; ++i )
+		scrollList.pairData.ForEach(delegate(ScrollPairData pair)
 		{
-			if ( GUI.Button(new Rect (xpos,ypos + (( titleHeight + helpHeight ) * i ),fontWidth,titleHeight + helpHeight),string.Empty) )
+			if ( GUI.Button(new Rect (xpos,ypos,fontWidth,titleHeight + helpHeight),string.Empty) )
 			{
-				scrollList.Selected(i);
-				break;
+				pair.Focused();
 			}
-		}
-
-		// Draw.
-		for ( int i = 0 ; i < scrollList.pairData.Count ; ++i )
-		{
 			GUI.skin.label.fontSize = (int)titleHeight;
 			GUI.skin.label.fontStyle = FontStyle.Bold;
-			if ( scrollList.pairData[i].animationAlpha != 0.0f )
+			if ( pair.animationAlpha != 0.0f )
 			{
-				GUI.backgroundColor = new Color (1,1,1,scrollList.pairData[i].animationAlpha);
+				GUI.backgroundColor = new Color (1.0f,1.0f,1.0f,pair.animationAlpha);
 				GUI.Box(new Rect (xpos,ypos,fontWidth,titleHeight + helpHeight),string.Empty);
 			}
-			GUI.Label(new Rect(xpos,ypos,fontWidth,titleHeight),scrollList.pairData[i].title);
+			GUI.Label(new Rect(xpos,ypos,fontWidth,titleHeight),pair.title);
 			ypos+=titleHeight;
 			GUI.skin.label.fontSize = (int)helpHeight;
 			GUI.skin.label.fontStyle = FontStyle.Normal;
-			GUI.Label(new Rect(xpos,ypos,fontWidth,helpHeight),scrollList.pairData[i].help);
+			GUI.Label(new Rect(xpos,ypos,fontWidth,helpHeight),pair.help);
 			ypos+=helpHeight;
-		}
-		GUI.EndScrollView(); 
+			pair.Update(DeltaTime.Instance.Get());
+		} );
+		GUI.EndScrollView();
 		GUI.skin.label.fontSize = backupFontSize;
-
-				scrollList.Update(deltaTime); 
 	}
 	public override Scene GetNext()
 	{

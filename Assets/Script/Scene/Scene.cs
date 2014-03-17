@@ -1,4 +1,6 @@
+// <copyright file="Scene.cs" >(C)2014</copyright>
 using System;
+using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
@@ -10,7 +12,7 @@ public class Scene
 		Debug.Log(GetType().Name);
 		count = 0;
 	}
-	public virtual void RequestLoad()
+	public virtual void RequestLoad(ref List<Asset.Block> blocks)
 	{
 	}
 	public virtual void RequestStart()

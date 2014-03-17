@@ -6,29 +6,6 @@ public class ScrollList
 {
 	public List<ScrollPairData>	pairData = new List<ScrollPairData>();
 	public Vector2			position;
-	public int				selctedIndex = -1;
-	public void Add(string key, string value)
-	{
-		pairData.Add (new ScrollPairData(key,value));
-	}
-	public void Update(float delta)
-	{
-		for ( int i = 0 ; i < pairData.Count ; ++i )
-		{
-			pairData[i].Update(delta);
-		}
-	}
-	public void Selected(int index)
-	{
-		if ( selctedIndex != index )
-		{
-			if ( index < pairData.Count )
-			{
-				selctedIndex = index;
-				pairData[selctedIndex].Focused();
-			}
-		}
-	}
 }
 
 public class ScrollPairData

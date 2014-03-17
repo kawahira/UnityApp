@@ -1,35 +1,53 @@
+// <copyright file="Sequence.cs" >(C)2014</copyright>
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// シーケンス管理処理
+/// </summary>
 public class Sequence : MonoBehaviour
 {
 	[SerializeField] public GUISkin skin;
 	[SerializeField] public Scene CurrentScene = null;
 	[SerializeField] public Scene PrevScene = null;
+	Dictionary<string, Scene> SceneDictionary = new Dictionary<string, Scene>();
+	/// <summary>
+	/// Start
+	/// </summary>
 	public void Start()
 	{
-		CurrentScene = new Boot ();
+		SceneDictionary.Add("Boot"	,new Boot());
+		SceneDictionary.Add("Title"	,new Title());
+
+		CurrentScene = (Scene)Activator.CreateInstance(SceneDictionary["Boot"].GetType());
 		PrevScene = CurrentScene;
 		StartCoroutine(Coroutine());
-
-		string fileName = "TestStage"; // not .jso
+/*
+		WWW www = new WWW("file://Json/TestStageaa");
+		Debug.Log("err:" + www.error );
+		string fileName = "TestStage";
 		Debug.Log ("Json/" + fileName);
 		TextAsset txt = Instantiate(Resources.Load ("Json/" + fileName)) as TextAsset;
 		Json.MapData.Header header = LitJson.JsonMapper.ToObject<Json.MapData.Header>(txt.text);
 		Debug.Log ("height : " + header.height);
+*/
 	}
+	/// <summary>
+	/// シーケンス実体
+	/// </summary>
 	 private IEnumerator Coroutine()
 	{
 		for (;;) 
 		{
 			CurrentScene.Initialize();
-			CurrentScene.RequestLoad();
+			CurrentScene.RequestLoad(ref GetComponent<FileAssetBundle>().blockList);
 			do
 			{
 				yield return null;
-			} while (CurrentScene.IsLoad()== false );
-
+			} while ( GetComponent<FileAssetBundle>().blockList.Find( delegate(Asset.Block block) { return block.isRead() == false; }) != null  );
+			
 			CurrentScene.RequestStart();
 			do
 			{
@@ -60,12 +78,16 @@ public class Sequence : MonoBehaviour
 					CurrentScene = scene;
 				}
 			}
+			Resources.UnloadUnusedAssets(); 
 			GC.Collect();
 		}
 	}
+	/// <summary>
+	/// シーンの On GUI（本来はあってはいけない）
+	/// </summary>
 	public void OnGUI () 
 	{
 		GUI.skin = skin;
-		CurrentScene.DebugDraw(0.0f, 0.0f);
+//		CurrentScene.DebugDraw(0.0f, 0.0f);
 	}
 }

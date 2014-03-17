@@ -2,6 +2,16 @@ using UnityEditor;
 
 public class buildMenu
 {
+	const bool enableWindows			= true;
+	const bool enableLinux				= true;
+	const bool enableMac				= true;
+	const bool enableiPhone				= true;
+	const bool enableAndroid			= true;
+	const bool enableBlackBerry			= true;
+	const bool enableWebPlayer			= true;
+	const bool enableGoogleNative		= true;
+	const bool enableMetro				= true;
+	const bool enableWindowsPhone8		= true;
 	const string kScriptDebug 			= "-" + "ScriptDebug";
 	const string kAutoProfiler 			= "-" + "AutoProfiler";
 	
@@ -22,6 +32,7 @@ public class buildMenu
 	const string kCpuUniversal			= "Universal";
 	const string kWebPlayer 			= "WebPlayer";
 	const string kDefault 				= "Basic";
+	const string kAssetBundle 			= "AssetBundle";
 	const string kWindows86 			= "/" + kWindows + "/" + kCpu86;
 	const string kWindows64 			= "/" + kWindows + "/" + kCpu64;
 	const string kMac86 				= "/" + kMac + "/" + kCpu86;
@@ -41,14 +52,19 @@ public class buildMenu
 	const string kWindowsPhone8Default 	= "/" + kWindowsPhone8 + "/" + kDefault;
 	const string kGoogleNativeDefault 	= "/" + kGoogleNative + "/" + kDefault;
 
-	const string kBuild 			= "Build";
-	const string kDevelopment 		= kBuild + "/" + "Development";
-	const string kRelease 			= kBuild + "/" + "Release";
+	const string kBuild 				= "Build";
+	const string kDevelopment 			= kBuild + "/" + "Development";
+	const string kRelease 				= kBuild + "/" + "Release";
 
 	const string kExtensionMac			= ".app";
 	const string kExtensionWindows		= ".exe";
 	const string kExtensionAndroid		= ".apk";
 	const string kExtensionBlackBerry	= ".bar";
+
+	const string kMapChip  				= "Mapchip";
+	const string kSystem   				= "System";
+	const string kPrefab   				= "Prefab";
+	const string kMagician 				= "Animation/Magician";
 
 	static private string productName			= "/" + PlayerSettings.productName;
 	const BuildOptions optDevelop 				= BuildOptions.Development;
@@ -156,13 +172,13 @@ public class buildMenu
 	public static void Win86_Release() 								{ Build.Project( BuildTarget.StandaloneWindows, optRelease				,kRelease     + kWindows86 + productName + kExtensionWindows ); }
 	
 	[UnityEditor.MenuItem(kDevelopment + kWindows64)]
-	public static void Win64_Development() 							{ Build.Project( BuildTarget.StandaloneWindows, optDevelop				,kDevelopment + kWindows64 + productName + kExtensionWindows ); }
+	public static void Win64_Development() 							{ Build.Project( BuildTarget.StandaloneWindows64, optDevelop				,kDevelopment + kWindows64 + productName + kExtensionWindows ); }
 	[UnityEditor.MenuItem(kDevelopment + kWindows64 + kScriptDebug)]
-	public static void Win64_Development_ScriptDebug() 				{ Build.Project( BuildTarget.StandaloneWindows, optDevelopScriptDebug	,kDevelopment + kWindows64 + kScriptDebug + productName + kExtensionWindows ); }
+	public static void Win64_Development_ScriptDebug() 				{ Build.Project( BuildTarget.StandaloneWindows64, optDevelopScriptDebug	,kDevelopment + kWindows64 + kScriptDebug + productName + kExtensionWindows ); }
 	[UnityEditor.MenuItem(kDevelopment + kWindows64 + kAutoProfiler)]
-	public static void Win64_Development_AutoProfiler() 			{ Build.Project( BuildTarget.StandaloneWindows, optDevelopAutoProfiler	,kDevelopment + kWindows64 + kAutoProfiler + productName + kExtensionWindows ); }
+	public static void Win64_Development_AutoProfiler() 			{ Build.Project( BuildTarget.StandaloneWindows64, optDevelopAutoProfiler	,kDevelopment + kWindows64 + kAutoProfiler + productName + kExtensionWindows ); }
 	[UnityEditor.MenuItem(kRelease + kWindows64)]
-	public static void Win64_Release() 								{ Build.Project( BuildTarget.StandaloneWindows, optRelease				,kRelease     + kWindows64 + productName + kExtensionWindows ); }
+	public static void Win64_Release() 								{ Build.Project( BuildTarget.StandaloneWindows64, optRelease				,kRelease     + kWindows64 + productName + kExtensionWindows ); }
 
 	[UnityEditor.MenuItem(kDevelopment + kiOSDefault)]
 	public static void iOS_Development() 								{ Build.Project( BuildTarget.iPhone, optDevelop				,kDevelopment + kiOSDefault + productName ); }
@@ -211,61 +227,159 @@ public class buildMenu
 	[UnityEditor.MenuItem(kDevelopment + "/All")]
 	public static void AllBuildDevelopment()
 	{
-		Mac86_Development();
-		Mac86_Development_ScriptDebug();
-		Mac64_Development();
-		Mac64_Development_ScriptDebug();
-		MacUniversal_Development();
-		MacUniversal_Development_ScriptDebug();
-		Linux86_Development();
-		Linux86_Development_ScriptDebug();
-		Linux64_Development();
-		Linux64_Development_ScriptDebug();
-		LinuxUniversal_Development();
-		LinuxUniversal_Development_ScriptDebug();
-		Win86_Development();
-		Win86_Development_ScriptDebug();
-		Win64_Development();
-		Win64_Development_ScriptDebug();
-		WebPlayerDefault_Development();
-		WebPlayerDefault_Development_ScriptDebug();
-		WebPlayerOffline_Development();
-		WebPlayerOffline_Development_ScriptDebug();
-		WebPlayerStream_Development();
-		WebPlayerStream_Development_ScriptDebug();
-		WebPlayerNaCL_Development();
-		WebPlayerNaCL_Development_ScriptDebug();
-		iOS_Development();
-		iOS_Development_ScriptDebug();
-		Android_Development();
-		Android_Development_ScriptDebug();
-		BlackBerry_Development();
-		BlackBerry_Development_ScriptDebug();
-		Metro_Development();
-		Metro_Development_AutoProfiler();
-		WindowsPhone8_Development();
-		NaCl_Development();
+        if ( enableMac )
+        {
+    		Mac86_Development();
+    		Mac86_Development_ScriptDebug();
+    		Mac64_Development();
+    		Mac64_Development_ScriptDebug();
+    		MacUniversal_Development();
+    		MacUniversal_Development_ScriptDebug();
+        }
+        if ( enableLinux )
+        {
+		    Linux86_Development();
+		    Linux86_Development_ScriptDebug();
+		    Linux64_Development();
+		    Linux64_Development_ScriptDebug();
+		    LinuxUniversal_Development();
+		    LinuxUniversal_Development_ScriptDebug();
+        }
+		if ( enableWindows )
+		{
+			Win86_Development();
+			Win86_Development_ScriptDebug();
+			Win64_Development();
+			Win64_Development_ScriptDebug();
+		}
+        if ( enableWebPlayer )
+        {
+    		WebPlayerDefault_Development();
+    		WebPlayerDefault_Development_ScriptDebug();
+    		WebPlayerOffline_Development();
+    		WebPlayerOffline_Development_ScriptDebug();
+    		WebPlayerStream_Development();
+    		WebPlayerStream_Development_ScriptDebug();
+    		WebPlayerNaCL_Development();
+    		WebPlayerNaCL_Development_ScriptDebug();
+        }
+        if ( enableiPhone )
+        {
+    		iOS_Development();
+    		iOS_Development_ScriptDebug();
+        }
+        if ( enableAndroid )
+        {
+    		Android_Development();
+    		Android_Development_ScriptDebug();
+        }
+        if ( enableBlackBerry )
+        {
+    		BlackBerry_Development();
+    		BlackBerry_Development_ScriptDebug();
+        }
+        if ( enableMetro )
+        {
+    		Metro_Development();
+    		Metro_Development_AutoProfiler();
+        }
+        if ( enableWindowsPhone8 )
+        {
+    		WindowsPhone8_Development();
+        }
+        if ( enableGoogleNative )
+        {
+    		NaCl_Development();
+        }
 	}
 	[UnityEditor.MenuItem(kRelease + "/All")]
 	public static void AllBuildReleas()
 	{
-		Mac86_Release();
-		Mac64_Release();
-		MacUniversal_Release();
-		Linux86_Release();
-		Linux64_Release();
-		LinuxUniversal_Release();
-		Win86_Release();
-		Win64_Release();
-		WebPlayerDefault_Release();
-		WebPlayerOffline_Release();
-		WebPlayerStream_Release();
-		WebPlayerNaCL_Release();
-		iOS_Release();
-		BlackBerry_Release();
-		Metro_Release();
-		WindowsPhone8_Release();
-		NaCl_Release();
+        if ( enableLinux )
+        {
+   		    Mac86_Release();
+		    Mac64_Release();
+		    MacUniversal_Release();
+        }
+        if ( enableLinux )
+        {
+    		Linux86_Release();
+    		Linux64_Release();
+    		LinuxUniversal_Release();
+        }
+   		if ( enableWindows )
+		{
+			Win86_Release();
+			Win64_Release();
+		}
+        if ( enableWebPlayer )
+        {
+    		WebPlayerDefault_Release();
+    		WebPlayerOffline_Release();
+    		WebPlayerStream_Release();
+    		WebPlayerNaCL_Release();
+        }
+        if ( enableiPhone )
+        {
+    		iOS_Release();
+        }
+        if ( enableAndroid )
+        {
+            Android_Release();
+        }
+        if ( enableBlackBerry )
+        {
+    		BlackBerry_Release();
+        }
+        if ( enableMetro )
+        {
+    		Metro_Release();
+        }
+        if ( enableWindowsPhone8 )
+        {
+    		WindowsPhone8_Release();
+        }
+        if ( enableGoogleNative )
+        {
+    		NaCl_Release();
+        }
+	}
+	
+	public static void ExportAssetAllPlatform(string resFolder)
+	{
+        if ( enableWindows )
+        {
+    		AssetExport.Build(kAssetBundle + kWindows86		, resFolder, BuildTarget.StandaloneWindows); 
+    		AssetExport.Build(kAssetBundle + kWindows64		, resFolder, BuildTarget.StandaloneWindows64);
+        }
+		if ( enableMac )
+		{
+			AssetExport.Build(kAssetBundle + kMac86			, resFolder, BuildTarget.StandaloneOSXIntel); 
+			AssetExport.Build(kAssetBundle + kMac64			, resFolder, BuildTarget.StandaloneOSXIntel64); 
+			AssetExport.Build(kAssetBundle + kMacUniversal 	, resFolder, BuildTarget.StandaloneOSXUniversal);
+		}
+		if ( enableLinux )
+		{
+			AssetExport.Build(kAssetBundle + kLinux86		, resFolder, BuildTarget.StandaloneLinux); 
+			AssetExport.Build(kAssetBundle + kLinux64		, resFolder, BuildTarget.StandaloneLinux64); 
+			AssetExport.Build(kAssetBundle + kLinuxUniversal, resFolder, BuildTarget.StandaloneLinuxUniversal);
+		} 
+	}	
+	[MenuItem(kAssetBundle + "/" + kMapChip)]
+	public static void ExportMapChip() { ExportAssetAllPlatform(kMapChip); }
+	[MenuItem(kAssetBundle + "/" + kMagician)]
+	public static void ExportMagician() { ExportAssetAllPlatform(kMagician); }
+	[MenuItem(kAssetBundle + "/" + kPrefab)]
+	public static void ExportPrefab() { ExportAssetAllPlatform(kPrefab); }
+	[MenuItem(kAssetBundle + "/" + kSystem)]
+	public static void ExportSystem() { ExportAssetAllPlatform(kSystem); }
+	[MenuItem(kAssetBundle + "/" + "ALL")]
+	static void ExportALL()
+	{
+		ExportMapChip();
+		ExportSystem();
+		ExportMagician();
+		ExportPrefab();
 	}
 }
 

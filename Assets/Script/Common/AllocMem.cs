@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿// <copyright file="AllocMem.cs" >(C)2014</copyright>
+using System.Collections;
 using System.Text;
 using UnityEngine;
 

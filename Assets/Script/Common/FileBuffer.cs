@@ -33,14 +33,6 @@ public class FileBuffer
 		}
 		return data_.Length != 0  ? true : false;
 	}
-	public bool Save(string filename, string strings, int size)
-	{
-		StreamWriter sw = (new FileInfo(filename)).CreateText();
-		sw.WriteLine(strings);
-		sw.Flush();
-		sw.Close();
-		return true;
-	}
 	void Destroy()
 	{
 	}

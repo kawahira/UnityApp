@@ -1,6 +1,10 @@
-﻿using System.Collections;
+﻿// <copyright file="DeltaTime.cs" >(C)2014</copyright>
+using System.Collections;
 using UnityEngine;
 
+/// <summary>
+/// 時間管理
+/// </summary>
 public class DeltaTime
 {
 	private static volatile DeltaTime instance;
@@ -28,5 +32,9 @@ public class DeltaTime
 	private float delta;
 	private float scale = 1.0f;
 	private float base60FrameDelta = 1.0f / 60.0f;
+	/// <summary>
+	/// スケール値
+	/// </summary>
 	public float GetScale() { return (Time.deltaTime / base60FrameDelta) * scale; }
+	public float Get()		{ return Time.deltaTime; }
 }

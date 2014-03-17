@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿// <copyright file="Hero.cs" >(C)2014</copyright>
+using System.Collections;
 using UnityEngine;
 
 public class Hero : MonoBehaviour 

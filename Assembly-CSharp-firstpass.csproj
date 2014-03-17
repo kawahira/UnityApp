@@ -46,14 +46,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\LitJson\IJsonWrapper.cs" />
-     <Compile Include="Assets\Plugins\LitJson\JsonData.cs" />
-     <Compile Include="Assets\Plugins\LitJson\JsonException.cs" />
-     <Compile Include="Assets\Plugins\LitJson\JsonMapper.cs" />
-     <Compile Include="Assets\Plugins\LitJson\JsonReader.cs" />
-     <Compile Include="Assets\Plugins\LitJson\JsonWriter.cs" />
-     <Compile Include="Assets\Plugins\LitJson\Lexer.cs" />
-     <Compile Include="Assets\Plugins\LitJson\ParserToken.cs" />
+     <Compile Include="Assets\Plugins\msgpack-unity\src\BoxingPacker.cs" />
+     <Compile Include="Assets\Plugins\msgpack-unity\src\CompiledPacker.cs" />
+     <Compile Include="Assets\Plugins\msgpack-unity\src\Compiler\EmitExtensions.cs" />
+     <Compile Include="Assets\Plugins\msgpack-unity\src\Compiler\PackILGenerator.cs" />
+     <Compile Include="Assets\Plugins\msgpack-unity\src\Compiler\Variable.cs" />
+     <Compile Include="Assets\Plugins\msgpack-unity\src\Compiler\VariableType.cs" />
+     <Compile Include="Assets\Plugins\msgpack-unity\src\MsgPackReader.cs" />
+     <Compile Include="Assets\Plugins\msgpack-unity\src\MsgPackWriter.cs" />
+     <Compile Include="Assets\Plugins\msgpack-unity\src\ObjectPacker.cs" />
+     <Compile Include="Assets\Plugins\msgpack-unity\src\ReflectionCache.cs" />
+     <Compile Include="Assets\Plugins\msgpack-unity\src\ReflectionCacheEntry.cs" />
+     <Compile Include="Assets\Plugins\msgpack-unity\src\TypePrefixes.cs" />
      <None Include="Assets\UnityTestTools\LICENSE.txt" />
      <None Include="Assets\Resources\Json\TestStage.txt" />
      <None Include="Assets\UnityTestTools\changelog.txt" />
