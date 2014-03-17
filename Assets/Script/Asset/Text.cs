@@ -9,7 +9,10 @@ namespace Asset
 	{
 		private System.Action<string> callback = null;
 		private string body = string.Empty;
-		public Text(string url,int group,int id,int version,System.Action<string> cb) : base(url,null,group,id,version) { callback = cb; }
+		public Text(string url,int group,int id,int version,System.Action<string> cb) : base(url,null,group,id,version)
+        {
+            callback = cb;
+        }
 		public override IEnumerator Read()
 		{
 			do

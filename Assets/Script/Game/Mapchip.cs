@@ -7,13 +7,13 @@ using UnityEngine;
 /// </summary>
 public class Mapchip : MonoBehaviour 
 {
-	[SerializeField] GameObject MapSpritePrefab = null;
+	[SerializeField] public GameObject MapSpritePrefab = null;
 	[SerializeField] public Sprite[] sprArr = null;
 	private int mapchipWidth  = 31;
 	private int mapchipHeight = 31;
 	[SerializeField] public float offsetX = 0.32f * 16.0f;
 	[SerializeField] public float offsetY = 0.32f * 16.0f;
-	void Start()
+	public void Start()
 	{
 		MapSpritePrefab.GetComponent<SpriteRenderer>().sprite = sprArr[209];
 		for ( int i = 0 ; i < 32 ; ++i )

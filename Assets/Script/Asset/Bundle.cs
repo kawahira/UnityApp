@@ -11,13 +11,13 @@ namespace Asset
 	public class Bundle : Block
 	{
 		private int wwwCount	 					= 0;
-		private int aSyncCount 						= 0;
+		private int loadASyncCount 						= 0;
 		private int msgpackCount 					= 0;
 		private SerializeData.FileList fileList	= null;
 		private List<object> objectList			= new  List<object>();
 		private System.Action<List<object>,SerializeData.FileList> callback = null;
-		private const string kFileListName 			= "FileList";
-		private const string kExtensionAssetBundle 	= ".unity3d";
+		private const string strFileListName 			= "FileList";
+		private const string strExtensionAssetBundle 	= ".unity3d";
 		public Bundle(string url,string folder, int group,int id,int version,System.Action<List<object>,SerializeData.FileList> cb) : base(url,folder,group,id,version)
 		{
 			callback = cb;
@@ -27,7 +27,7 @@ namespace Asset
 		{
 			do
 			{
-				using(WWW www = WWW.LoadFromCacheOrDownload (url + kExtensionAssetBundle, version))
+				using(WWW www = WWW.LoadFromCacheOrDownload (url + strExtensionAssetBundle, version))
 				{
 					while (!www.isDone)
 					{
@@ -53,13 +53,13 @@ namespace Asset
 						Debug.Log ("www:" + wwwCount);
 						{
 							// オブジェクトを非同期ロード
-							AssetBundleRequest request = www.assetBundle.LoadAsync(folder + "/" + kFileListName,typeof(TextAsset));
+							AssetBundleRequest request = www.assetBundle.LoadAsync(folder + "/" + strFileListName,typeof(TextAsset));
 							while (!request.isDone)
 							{
-								++aSyncCount;
+                                ++loadASyncCount;
  								yield return null;
 							}
-							Debug.Log ("loadASync["+kFileListName+"]:" + aSyncCount);
+                            Debug.Log("loadASync[" + kFileListName + "]:" + loadASyncCount);
 							Thread thread = new Thread(new ParameterizedThreadStart(UnpackFileList ));
 							thread.Priority = System.Threading.ThreadPriority.Lowest;
 							thread.Start( (request.asset as TextAsset).bytes );
@@ -77,12 +77,12 @@ namespace Asset
 							AssetBundleRequest request = www.assetBundle.LoadAsync(fileList.obj[i].Key,WrapClass.GetType(fileList.obj[i].Value));
 							while (!request.isDone)
 							{
-								++aSyncCount;
+                                ++loadASyncCount;
 								yield return null;
 							}
 							objectList.Add(request.asset);
 						}
-						Debug.Log ("aSyncCount:" + aSyncCount);
+                        Debug.Log("aSyncCount:" + loadASyncCount);
 						Debug.Log (fileList.version);
 						// threadの解放コードのお手本にはJoinが書かれているが mainthreadが止まるし目的が違うのでいらないはず
 						www.assetBundle.Unload(false);

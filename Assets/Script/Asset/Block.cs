@@ -30,8 +30,8 @@ namespace Asset
 			size			= 0;
 			autoremove		= false;
 		}
-		public bool isRead() 				{ return readFlag == true && callbackFlag == true; }
-		public bool isAutoRemoved()			{ return autoremove; }
+		public bool IsRead() 				{ return readFlag == true && callbackFlag == true; }
+		public bool IsAutoRemoved()			{ return autoremove; }
 		public long GetSize()				{ return size; }
 		public float GetProgress() 			{ return progress; }
 		public virtual void Resolve()		{ }

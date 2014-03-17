@@ -81,7 +81,7 @@ public class FlickThrowTouch : MonoBehaviour
 						Rigidbody ball = Instantiate(ballPrefab, new Vector3(0.0f,2.6f,-11.0f), Quaternion.identity) as Rigidbody;
 						GetSpeed();
 						GetAngle();
-						ball.rigidbody.AddForce(new Vector3((worldAngle.x * ballSpeed), (worldAngle.y * ballSpeed), (worldAngle.z * ballSpeed)));
+//						ball.rigidbody.AddForce(new Vector3((worldAngle.x * ballSpeed), (worldAngle.y * ballSpeed), (worldAngle.z * ballSpeed)));
 					}
 					break;
 				default :
@@ -98,7 +98,7 @@ public class FlickThrowTouch : MonoBehaviour
 			Debug.Log("shot disabled!");
 		}
 	}
-	public void timeIncrease() 
+	public void TimeIncrease() 
 	{
 		if (getVelocity) 
 		{
@@ -123,6 +123,6 @@ public class FlickThrowTouch : MonoBehaviour
 	}
 	public void GetAngle () 
 	{
-		worldAngle = camera.ScreenToWorldPoint(new Vector3 (touchEnd.x, touchEnd.y + 800.0f, ((camera.nearClipPlane - 100.0f)*1.8f)));
+//		worldAngle = camera.ScreenToWorldPoint(new Vector3 (touchEnd.x, touchEnd.y + 800.0f, ((camera.nearClipPlane - 100.0f)*1.8f)));
 	}
 }

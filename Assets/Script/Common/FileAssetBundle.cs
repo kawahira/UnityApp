@@ -10,7 +10,7 @@ using UnityEngine;
 public class FileAssetBundle : MonoBehaviour 
 {
 	public List<Asset.Block>	blockList = new List<Asset.Block>();
-	private void callbackTest(string str)
+	private void CallbackTest(string str)
 	{
 //		Json.MapData.Header header = LitJson.JsonMapper.ToObject<Json.MapData.Header>(str);
 //		Debug.Log (header); 
@@ -18,7 +18,7 @@ public class FileAssetBundle : MonoBehaviour
 	private void InstantiateCallback(List<object> objects,SerializeData.FileList files)
 	{
 	}
-	void Start() 
+    public void Start() 
  	{
 		Caching.CleanCache();
 		//		blockList.Add(new Asset.Bundle(mapChipBaseURL, MapChipName , 0, 0, 1, InstantiateCallback));
@@ -28,12 +28,12 @@ public class FileAssetBundle : MonoBehaviour
 	{
 		return blockList;
 	}
-	IEnumerator Action(Asset.Block block)
+	private IEnumerator Action(Asset.Block block)
 	{
 		yield return StartCoroutine(block.Read());	
  		yield return StartCoroutine(block.Callback());
 	}
-	IEnumerator ActiveEntry ()
+	private IEnumerator ActiveEntry ()
 	{
 		// キャッシュシステムの準備が完了するのを待つ (稼働中に状態が変わらない前提)
 		while (!Caching.ready) { yield return null; }
@@ -50,7 +50,7 @@ public class FileAssetBundle : MonoBehaviour
 			}
 		}
 	}
-	void OnGUI()
+	public void OnGUI()
 	{
 		StringBuilder text = new StringBuilder ();
 		text.Append ("Blocks : " + blockList.Count);

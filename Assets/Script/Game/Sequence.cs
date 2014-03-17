@@ -10,19 +10,19 @@ using UnityEngine;
 public class Sequence : MonoBehaviour
 {
 	[SerializeField] public GUISkin skin;
-	[SerializeField] public Scene CurrentScene = null;
-	[SerializeField] public Scene PrevScene = null;
-	Dictionary<string, Scene> SceneDictionary = new Dictionary<string, Scene>();
+	[SerializeField] public Scene currentScene = null;
+	[SerializeField] public Scene prevScene = null;
+	private Dictionary<string, Scene> sceneDictionary = new Dictionary<string, Scene>();
 	/// <summary>
 	/// Start
 	/// </summary>
 	public void Start()
 	{
-		SceneDictionary.Add("Boot"	,new Boot());
-		SceneDictionary.Add("Title"	,new Title());
+		sceneDictionary.Add("Boot"	,new Boot());
+		sceneDictionary.Add("Title"	,new Title());
 
-		CurrentScene = (Scene)Activator.CreateInstance(SceneDictionary["Boot"].GetType());
-		PrevScene = CurrentScene;
+		currentScene = (Scene)Activator.CreateInstance(sceneDictionary["Boot"].GetType());
+		prevScene = CurrentScene;
 		StartCoroutine(Coroutine());
 /*
 		WWW www = new WWW("file://Json/TestStageaa");
@@ -41,41 +41,41 @@ public class Sequence : MonoBehaviour
 	{
 		for (;;) 
 		{
-			CurrentScene.Initialize();
-			CurrentScene.RequestLoad(ref GetComponent<FileAssetBundle>().blockList);
+			currentScene.Initialize();
+			currentScene.RequestLoad(ref GetComponent<FileAssetBundle>().blockList);
 			do
 			{
 				yield return null;
-			} while ( GetComponent<FileAssetBundle>().blockList.Find( delegate(Asset.Block block) { return block.isRead() == false; }) != null  );
+			} while ( GetComponent<FileAssetBundle>().blockList.Find( delegate(Asset.Block block) { return block.IsRead() == false; }) != null  );
 			
-			CurrentScene.RequestStart();
+			currentScene.RequestStart();
 			do
 			{
-				if ( CurrentScene.IsDone() )
+				if ( currentScene.IsDone() )
 				{
 					break;
 				}
 				yield return null;
 			} while ( true );
-			CurrentScene.RequestUnload();
+			currentScene.RequestUnload();
 			do
 			{
-				if ( CurrentScene.IsUnload() )
+				if ( currentScene.IsUnload() )
 				{
 					break;
 				}
 				yield return null;
 			} while ( true );
 			{
-				Scene scene = CurrentScene.GetNext();
+				Scene scene = currentScene.GetNext();
 				if ( scene == null )
 				{
-					CurrentScene = (Scene)Activator.CreateInstance(PrevScene.GetType());
+					currentScene = (Scene)Activator.CreateInstance(prevScene.GetType());
 				}
 				else
 				{
-					PrevScene = CurrentScene;
-					CurrentScene = scene;
+					prevScene = currentScene;
+					currentScene = scene;
 				}
 			}
 			Resources.UnloadUnusedAssets(); 

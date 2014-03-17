@@ -10,16 +10,16 @@ using UnityEngine;
 /// </summary>
 public class Spline
 {
-	List<Vector3> _points = new List<Vector3>();
-	float _segmentSize = 0;
+	private List<Vector3> points = new List<Vector3>();
+    private float segmentSize = 0;
 	
 	/// <summary>
 	/// ポイントの追加
 	/// </summary>
 	public void AddPoint(Vector3 point)
 	{
-		_points.Add(point);
-		_segmentSize = 1 / (float)_points.Count;
+		points.Add(point);
+		segmentSize = 1.0f / (float)points.Count;
 	}
 	/// <summary>
 	/// Get the points around the segment
@@ -30,9 +30,9 @@ public class Spline
 		{
 			return 0;
 		}
-		else if (point > _points.Count - 1)
+		else if (point > points.Count - 1)
 		{
-			return _points.Count - 1;
+			return points.Count - 1;
 		}
 		else
 		{
@@ -45,13 +45,13 @@ public class Spline
 	/// </summary>
 	public Vector3 GetPositionOnLine(float t)
 	{
-		if (_points.Count <= 1)
+		if (points.Count <= 1)
 		{
 			return new Vector3(0, 0, 0);
 		}
 		
 		// Get the segment of the line we're dealing with.
-		int interval = (int)(t / _segmentSize);
+		int interval = (int)(t / segmentSize);
 		
 		// Get the points around the segment
 		int p0 = LimitPoints(interval - 1);
@@ -60,8 +60,8 @@ public class Spline
 		int p3 = LimitPoints(interval + 2);
 		
 		// Scale t to the current segement
-		float scaledT = (t - _segmentSize * (float)interval) / _segmentSize;
-		return CalculateCatmullRom(scaledT, _points[p0], _points[p1], _points[p2], _points[p3]);
+		float scaledT = (t - (segmentSize * (float)interval)) / segmentSize;
+		return CalculateCatmullRom(scaledT, points[p0], points[p1], points[p2], points[p3]);
 	}
 	/// <summary>
 	/// 計算処理実体
@@ -71,11 +71,11 @@ public class Spline
 		float t2 = t * t;
 		float t3 = t2 * t;
 		
-		float b1 = 0.5f * (-t3 + 2.0f * t2 - t);
-		float b2 = 0.5f * (3.0f  * t3 - 5.0f * t2 + 2.0f);
-		float b3 = 0.5f * (-3.0f * t3 + 4.0f * t2 + t);
+		float b1 = 0.5f * (-t3 + ( 2.0f * t2)  - t);
+		float b2 = 0.5f * ((3.0f  * t3) - (5.0f * t2) + 2.0f);
+		float b3 = 0.5f * ((-3.0f * t3) + (4.0f * t2) + t);
 		float b4 = 0.5f * (t3 - t2);
 		
-		return (p1 * b1 + p2 * b2 + p3 * b3 + p4 * b4);
+		return (p1 * b1) + (p2 * b2) + (p3 * b3) + (p4 * b4);
 	}
 }
