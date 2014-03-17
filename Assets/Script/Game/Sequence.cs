@@ -22,7 +22,7 @@ public class Sequence : MonoBehaviour
 		sceneDictionary.Add("Title"	,new Title());
 
 		currentScene = (Scene)Activator.CreateInstance(sceneDictionary["Boot"].GetType());
-		prevScene = CurrentScene;
+		prevScene = currentScene;
 		StartCoroutine(Coroutine());
 /*
 		WWW www = new WWW("file://Json/TestStageaa");

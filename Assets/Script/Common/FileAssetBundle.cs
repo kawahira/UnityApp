@@ -39,11 +39,11 @@ public class FileAssetBundle : MonoBehaviour
 		while (!Caching.ready) { yield return null; }
 		for ( ;; )
 		{
-			Asset.Block result = blockList.Find( delegate(Asset.Block block) { return block.isRead() == false; });
+			Asset.Block result = blockList.Find( delegate(Asset.Block block) { return block.IsRead() == false; });
 			yield return result == null ? null : StartCoroutine(Action(result)); 
 			if ( result != null )
 			{
-				if ( result.isAutoRemoved() )
+				if ( result.IsAutoRemoved() )
 				{
 					blockList.Remove(result);
 				}

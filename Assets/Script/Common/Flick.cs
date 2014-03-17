@@ -51,7 +51,7 @@ public class FlickThrowTouch : MonoBehaviour
 				{
 				case TouchPhase.Began:
 					flickTime = 5;
-					timeIncrease();
+					TimeIncrease();
 					couldBeSwipe = true;
 					getVelocity = true;
 					touchStart= touch.position;
@@ -78,7 +78,7 @@ public class FlickThrowTouch : MonoBehaviour
 					{
 						getVelocity = false;
 						touchEnd = touch.position;
-						Rigidbody ball = Instantiate(ballPrefab, new Vector3(0.0f,2.6f,-11.0f), Quaternion.identity) as Rigidbody;
+//						Rigidbody ball = Instantiate(ballPrefab, new Vector3(0.0f,2.6f,-11.0f), Quaternion.identity) as Rigidbody;
 						GetSpeed();
 						GetAngle();
 //						ball.rigidbody.AddForce(new Vector3((worldAngle.x * ballSpeed), (worldAngle.y * ballSpeed), (worldAngle.z * ballSpeed)));
