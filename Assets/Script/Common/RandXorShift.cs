@@ -46,9 +46,9 @@ public sealed class RandXorShift
 		private RandXorShift ()
 		{
 				for (int i = 0; i < rndArray.Length; ++i) {
-						rndArray [i] = new XorShift128 (0);
+						rndArray [i] = new XorShift128 (1);
 				}
-				Seed (0);
+				Seed (1);
 				Enable (true);
 		}
 

@@ -13,7 +13,8 @@ public class AssetExport
 		private const string strMetaFile = ".meta";
 		private const string strBinaryFile = ".bytes";
 		private const string kExtensionAssetBundle	= ".unity3d";
-
+		// <summary>
+		// 除外ファイルの検索 </summary>
 		static bool IsExclusion (string name)
 		{
 				bool returncode = false;
@@ -22,7 +23,8 @@ public class AssetExport
 				} 
 				return returncode;
 		}
-
+		// <summary>
+		// 対象フォルダー以下のオブジェクトからファイルリストを生成する </summary>
 		static void CreateTargetFileList (string currentDirectory, string targetDirectory, out string[] lists, out Object[] assets)
 		{
 				string resourcesDirectory = currentDirectory + "/" + strResource;
@@ -69,6 +71,8 @@ public class AssetExport
 				}
 		}
 
+		// <summary>
+		// 指定フォルダーを指定プラットフォームのAssetBundleを生成する </summary>
 		public static void Build (string outPath, string resPath, BuildTarget target)
 		{
 				if (Directory.Exists (outPath) == false) {
@@ -79,7 +83,7 @@ public class AssetExport
 				Object[] assets;
 				CreateTargetFileList (Application.dataPath, resPath, out files, out assets);
  
-				{	// load test.
+				{	// FileListのload test.
 						bool msgPackValidflag = false;
 						foreach (Object obj in assets) {
 								if (obj.name == strOutputFileList) {

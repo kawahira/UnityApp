@@ -7,11 +7,11 @@ public class buildMenu
 		const bool enableMac = true;
 		const bool enableiPhone = true;
 		const bool enableAndroid = true;
-		const bool enableBlackBerry = false;
+		const bool enableBlackBerry = true;
 		const bool enableWebPlayer = true;
 		const bool enableGoogleNative = true;
-		const bool enableMetro = false;
-		const bool enableWindowsPhone8 = false;
+		const bool enableMetro = true;
+		const bool enableWindowsPhone8 = true;
 		const string kScriptDebug = "-" + "ScriptDebug";
 		const string kAutoProfiler = "-" + "AutoProfiler";
 		const string kOffline = "Offline";
@@ -574,37 +574,36 @@ public class buildMenu
 		public static void ExportAssetAllPlatform (string resFolder)
 		{
 				if (enableMac) {
-						AssetExport.Build (kAssetBundle + kMac86, resFolder, BuildTarget.StandaloneOSXIntel); 
-						AssetExport.Build (kAssetBundle + kMac64, resFolder, BuildTarget.StandaloneOSXIntel64); 
-						AssetExport.Build (kAssetBundle + kMacUniversal, resFolder, BuildTarget.StandaloneOSXUniversal);
+						AssetExport.Build (kAssetBundle + "/" + kMac, resFolder, BuildTarget.StandaloneOSXIntel); 
 				}
 				if (enableLinux) {
-						AssetExport.Build (kAssetBundle + kLinux86, resFolder, BuildTarget.StandaloneLinux); 
-						AssetExport.Build (kAssetBundle + kLinux64, resFolder, BuildTarget.StandaloneLinux64); 
-						AssetExport.Build (kAssetBundle + kLinuxUniversal, resFolder, BuildTarget.StandaloneLinuxUniversal);
+						AssetExport.Build (kAssetBundle + "/" + kLinux, resFolder, BuildTarget.StandaloneLinux); 
 				}
 				if (enableWindows) {
-						AssetExport.Build (kAssetBundle + kWindows86, resFolder, BuildTarget.StandaloneWindows); 
-						AssetExport.Build (kAssetBundle + kWindows64, resFolder, BuildTarget.StandaloneWindows64);
+						AssetExport.Build (kAssetBundle + "/" + kWindows, resFolder, BuildTarget.StandaloneWindows); 
 				}
 				if (enableWebPlayer) {
 						AssetExport.Build (kAssetBundle + "/" + kWebPlayer, resFolder, BuildTarget.WebPlayer); 
-						AssetExport.Build (kAssetBundle + "/" + kWebPlayer, resFolder, BuildTarget.WebPlayerStreamed); 
 				}
 				if (enableiPhone) {
-						AssetExport.Build (kAssetBundle + "/" + kiOS, resFolder, BuildTarget.iPhone); 
+//						AssetExport.Build (kAssetBundle + "/" + kiOS, resFolder, BuildTarget.iPhone); 
+						AssetExport.Build (kAssetBundle + "/" + kiOS, resFolder, BuildTarget.WebPlayer); 
 				}
 				if (enableAndroid) {
-						AssetExport.Build (kAssetBundle + "/" + kAndroid, resFolder, BuildTarget.Android); 
+//						AssetExport.Build (kAssetBundle + "/" + kAndroid, resFolder, BuildTarget.Android); 
+						AssetExport.Build (kAssetBundle + "/" + kAndroid, resFolder, BuildTarget.WebPlayer); 
 				}
 				if (enableBlackBerry) {
-						AssetExport.Build (kAssetBundle + "/" + kBlackBerry, resFolder, BuildTarget.BB10); 
+//						AssetExport.Build (kAssetBundle + "/" + kBlackBerry, resFolder, BuildTarget.BB10); 
+						AssetExport.Build (kAssetBundle + "/" + kBlackBerry, resFolder, BuildTarget.WebPlayer); 
 				}
 				if (enableMetro) {
-						AssetExport.Build (kAssetBundle + "/" + kMetro, resFolder, BuildTarget.MetroPlayer); 
+//						AssetExport.Build (kAssetBundle + "/" + kMetro, resFolder, BuildTarget.MetroPlayer); 
+						AssetExport.Build (kAssetBundle + "/" + kMetro, resFolder, BuildTarget.WebPlayer); 
 				}
 				if (enableWindowsPhone8) {
-						AssetExport.Build (kAssetBundle + "/" + kWindowsPhone8, resFolder, BuildTarget.WP8Player); 
+//						AssetExport.Build (kAssetBundle + "/" + kWindowsPhone8, resFolder, BuildTarget.WP8Player); 
+						AssetExport.Build (kAssetBundle + "/" + kWindowsPhone8, resFolder, BuildTarget.WebPlayer); 
 				}
 				if (enableGoogleNative) {
 						AssetExport.Build (kAssetBundle + "/" + kGoogleNative, resFolder, BuildTarget.NaCl); 

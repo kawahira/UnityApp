@@ -27,7 +27,6 @@ public class FileAssetBundle : MonoBehaviour
 		public void Start ()
 		{
 				Caching.CleanCache ();
-				//		blockList.Add(new Asset.Bundle(mapChipBaseURL, MapChipName , 0, 0, 1, InstantiateCallback));
 				StartCoroutine (ActiveEntry ());
 		}
 
@@ -64,8 +63,16 @@ public class FileAssetBundle : MonoBehaviour
 		public void OnGUI ()
 		{
 				StringBuilder text = new StringBuilder ();
-				text.Append ("Blocks : " + blockList.Count);
-				GUI.Box (new Rect (5, 300, 310, 100), string.Empty);
-				GUI.Label (new Rect (10, 305, 1000, 200), text.ToString ());
+				text.Append ("Blocks : " + blockList.Count + "\n");
+				int count = 0;
+				blockList.ForEach(delegate(Asset.Block block)
+				{
+						text.Append("[" + count + "]:" + block.url + "Prog:" + block.GetProgress() + "\n");
+						count ++;
+				});
+						text.Append("height:" + Screen.height + "  width:" + Screen.width + "\n");
+				
+				GUI.Box   (new Rect ( 0, Screen.height-100, Screen.width, Screen.height), string.Empty);
+				GUI.Label (new Rect ( 0, Screen.height-100, Screen.width, Screen.height), text.ToString ());
 		}
 }

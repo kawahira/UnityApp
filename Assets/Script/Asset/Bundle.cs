@@ -48,7 +48,6 @@ namespace Asset
 										if (errorMessage != string.Empty) {
 												Debug.Log (errorMessage + "(AssetName:" + url + ")");
 										} else {
-												Debug.Log ("www:" + wwwCount);
 												{
 														// オブジェクトを非同期ロード
 														AssetBundleRequest request = www.assetBundle.LoadAsync (folder + "/" + strFileListName, typeof(TextAsset));
@@ -56,7 +55,6 @@ namespace Asset
 																++loadASyncCount;
 																yield return null;
 														}
-														Debug.Log ("loadASync[" + strFileListName + "]:" + loadASyncCount);
 														Thread thread = new Thread (new ParameterizedThreadStart (UnpackFileList));
 														thread.Priority = System.Threading.ThreadPriority.Lowest;
 														thread.Start ((request.asset as TextAsset).bytes);
@@ -65,7 +63,6 @@ namespace Asset
 																yield return null;
 														}
 												}
-												Debug.Log ("msgpack:" + msgpackCount);
 												loadASyncCount = 0;
 												for (int i = 0; i < fileList.obj.Count; ++i) {
 														if (fileList.obj [i].Key == folder + "/" + strFileListName)
@@ -77,8 +74,6 @@ namespace Asset
 														}
 														objectList.Add (request.asset);
 												}
-												Debug.Log ("loadASyncCount:" + loadASyncCount);
-												Debug.Log (fileList.version);
 												// threadの解放コードのお手本にはJoinが書かれているが mainthreadが止まるし目的が違うのでいらないはず
 												www.assetBundle.Unload (false);
 												readFlag	= true;
