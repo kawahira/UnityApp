@@ -1,6 +1,85 @@
 fileFormatVersion: 2
 guid: 35c6215ca1369234ca3f18e6ade7946c
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: food_0
+    21300002: food_1
+    21300004: food_2
+    21300006: food_3
+    21300008: food_4
+    21300010: food_5
+    21300012: food_6
+    21300014: food_7
+    21300016: food_8
+    21300018: food_9
+    21300020: food_10
+    21300022: food_11
+    21300024: food_12
+    21300026: food_13
+    21300028: food_14
+    21300030: food_15
+    21300032: food_16
+    21300034: food_17
+    21300036: food_18
+    21300038: food_19
+    21300040: food_20
+    21300042: food_21
+    21300044: food_22
+    21300046: food_23
+    21300048: food_24
+    21300050: food_25
+    21300052: food_26
+    21300054: food_27
+    21300056: food_28
+    21300058: food_29
+    21300060: food_30
+    21300062: food_31
+    21300064: food_32
+    21300066: food_33
+    21300068: food_34
+    21300070: food_35
+    21300072: food_36
+    21300074: food_37
+    21300076: food_38
+    21300078: food_39
+    21300080: food_40
+    21300082: food_41
+    21300084: food_42
+    21300086: food_43
+    21300088: food_44
+    21300090: food_45
+    21300092: food_46
+    21300094: food_47
+    21300096: food_48
+    21300098: food_49
+    21300100: food_50
+    21300102: food_51
+    21300104: food_52
+    21300106: food_53
+    21300108: food_54
+    21300110: food_55
+    21300112: food_56
+    21300114: food_57
+    21300116: food_58
+    21300118: food_59
+    21300120: food_60
+    21300122: food_61
+    21300124: food_62
+    21300126: food_63
+    21300128: food_64
+    21300130: food_65
+    21300132: food_66
+    21300134: food_67
+    21300136: food_68
+    21300138: food_69
+    21300140: food_70
+    21300142: food_71
+    21300144: food_72
+    21300146: food_73
+    21300148: food_74
+    21300150: food_75
+    21300152: food_76
+    21300154: food_77
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +114,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +134,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_1
       rect:
         serializedVersion: 2
@@ -63,6 +144,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_2
       rect:
         serializedVersion: 2
@@ -72,6 +154,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_3
       rect:
         serializedVersion: 2
@@ -81,6 +164,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_4
       rect:
         serializedVersion: 2
@@ -90,6 +174,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_5
       rect:
         serializedVersion: 2
@@ -99,6 +184,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_6
       rect:
         serializedVersion: 2
@@ -108,6 +194,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_7
       rect:
         serializedVersion: 2
@@ -117,6 +204,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_8
       rect:
         serializedVersion: 2
@@ -126,6 +214,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_9
       rect:
         serializedVersion: 2
@@ -135,6 +224,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_10
       rect:
         serializedVersion: 2
@@ -144,6 +234,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_11
       rect:
         serializedVersion: 2
@@ -153,6 +244,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_12
       rect:
         serializedVersion: 2
@@ -162,6 +254,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_13
       rect:
         serializedVersion: 2
@@ -171,6 +264,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_14
       rect:
         serializedVersion: 2
@@ -180,6 +274,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_15
       rect:
         serializedVersion: 2
@@ -189,6 +284,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_16
       rect:
         serializedVersion: 2
@@ -198,6 +294,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_17
       rect:
         serializedVersion: 2
@@ -207,6 +304,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_18
       rect:
         serializedVersion: 2
@@ -216,6 +314,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_19
       rect:
         serializedVersion: 2
@@ -225,6 +324,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_20
       rect:
         serializedVersion: 2
@@ -234,6 +334,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_21
       rect:
         serializedVersion: 2
@@ -243,6 +344,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_22
       rect:
         serializedVersion: 2
@@ -252,6 +354,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_23
       rect:
         serializedVersion: 2
@@ -261,6 +364,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_24
       rect:
         serializedVersion: 2
@@ -270,6 +374,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_25
       rect:
         serializedVersion: 2
@@ -279,6 +384,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_26
       rect:
         serializedVersion: 2
@@ -288,6 +394,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_27
       rect:
         serializedVersion: 2
@@ -297,6 +404,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_28
       rect:
         serializedVersion: 2
@@ -306,6 +414,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_29
       rect:
         serializedVersion: 2
@@ -315,6 +424,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_30
       rect:
         serializedVersion: 2
@@ -324,6 +434,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_31
       rect:
         serializedVersion: 2
@@ -333,6 +444,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_32
       rect:
         serializedVersion: 2
@@ -342,6 +454,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_33
       rect:
         serializedVersion: 2
@@ -351,6 +464,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_34
       rect:
         serializedVersion: 2
@@ -360,6 +474,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_35
       rect:
         serializedVersion: 2
@@ -369,6 +484,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_36
       rect:
         serializedVersion: 2
@@ -378,6 +494,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_37
       rect:
         serializedVersion: 2
@@ -387,6 +504,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_38
       rect:
         serializedVersion: 2
@@ -396,6 +514,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_39
       rect:
         serializedVersion: 2
@@ -405,6 +524,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_40
       rect:
         serializedVersion: 2
@@ -414,6 +534,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_41
       rect:
         serializedVersion: 2
@@ -423,6 +544,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_42
       rect:
         serializedVersion: 2
@@ -432,6 +554,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_43
       rect:
         serializedVersion: 2
@@ -441,6 +564,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_44
       rect:
         serializedVersion: 2
@@ -450,6 +574,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_45
       rect:
         serializedVersion: 2
@@ -459,6 +584,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_46
       rect:
         serializedVersion: 2
@@ -468,6 +594,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_47
       rect:
         serializedVersion: 2
@@ -477,6 +604,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_48
       rect:
         serializedVersion: 2
@@ -486,6 +614,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_49
       rect:
         serializedVersion: 2
@@ -495,6 +624,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_50
       rect:
         serializedVersion: 2
@@ -504,6 +634,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_51
       rect:
         serializedVersion: 2
@@ -513,6 +644,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_52
       rect:
         serializedVersion: 2
@@ -522,6 +654,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_53
       rect:
         serializedVersion: 2
@@ -531,6 +664,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_54
       rect:
         serializedVersion: 2
@@ -540,6 +674,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_55
       rect:
         serializedVersion: 2
@@ -549,6 +684,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_56
       rect:
         serializedVersion: 2
@@ -558,6 +694,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_57
       rect:
         serializedVersion: 2
@@ -567,6 +704,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_58
       rect:
         serializedVersion: 2
@@ -576,6 +714,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_59
       rect:
         serializedVersion: 2
@@ -585,6 +724,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_60
       rect:
         serializedVersion: 2
@@ -594,6 +734,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_61
       rect:
         serializedVersion: 2
@@ -603,6 +744,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_62
       rect:
         serializedVersion: 2
@@ -612,6 +754,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_63
       rect:
         serializedVersion: 2
@@ -621,6 +764,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_64
       rect:
         serializedVersion: 2
@@ -630,6 +774,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_65
       rect:
         serializedVersion: 2
@@ -639,6 +784,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_66
       rect:
         serializedVersion: 2
@@ -648,6 +794,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_67
       rect:
         serializedVersion: 2
@@ -657,6 +804,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_68
       rect:
         serializedVersion: 2
@@ -666,6 +814,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_69
       rect:
         serializedVersion: 2
@@ -675,6 +824,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_70
       rect:
         serializedVersion: 2
@@ -684,6 +834,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_71
       rect:
         serializedVersion: 2
@@ -693,6 +844,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_72
       rect:
         serializedVersion: 2
@@ -702,6 +854,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_73
       rect:
         serializedVersion: 2
@@ -711,6 +864,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_74
       rect:
         serializedVersion: 2
@@ -720,6 +874,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_75
       rect:
         serializedVersion: 2
@@ -729,6 +884,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_76
       rect:
         serializedVersion: 2
@@ -738,6 +894,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: food_77
       rect:
         serializedVersion: 2
@@ -747,5 +904,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

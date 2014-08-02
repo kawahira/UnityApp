@@ -14,7 +14,7 @@ namespace UnityTest
 		private readonly PropertyPathSelector thisPathSelector = new PropertyPathSelector ("Compare");
 		private readonly PropertyPathSelector otherPathSelector = new PropertyPathSelector("Compare to");
 
-		private bool focusBackToEdit;
+//		private bool focusBackToEdit;
 
 		#region GUI Contents
 		private readonly GUIContent guiCheckAfterTimeGuiContent = new GUIContent ("Check after (seconds)", "After how many seconds the assertion should be checked");

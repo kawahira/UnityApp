@@ -1,6 +1,67 @@
 fileFormatVersion: 2
 guid: ecf90d38e45aa7f4fb4f63aaa173eae4
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: knuckle_0
+    21300002: knuckle_1
+    21300004: knuckle_2
+    21300006: knuckle_3
+    21300008: knuckle_4
+    21300010: knuckle_5
+    21300012: knuckle_6
+    21300014: knuckle_7
+    21300016: knuckle_8
+    21300018: knuckle_9
+    21300020: knuckle_10
+    21300022: knuckle_11
+    21300024: knuckle_12
+    21300026: knuckle_13
+    21300028: knuckle_14
+    21300030: knuckle_15
+    21300032: knuckle_16
+    21300034: knuckle_17
+    21300036: knuckle_18
+    21300038: knuckle_19
+    21300040: knuckle_20
+    21300042: knuckle_21
+    21300044: knuckle_22
+    21300046: knuckle_23
+    21300048: knuckle_24
+    21300050: knuckle_25
+    21300052: knuckle_26
+    21300054: knuckle_27
+    21300056: knuckle_28
+    21300058: knuckle_29
+    21300060: knuckle_30
+    21300062: knuckle_31
+    21300064: knuckle_32
+    21300066: knuckle_33
+    21300068: knuckle_34
+    21300070: knuckle_35
+    21300072: knuckle_36
+    21300074: knuckle_37
+    21300076: knuckle_38
+    21300078: knuckle_39
+    21300080: knuckle_40
+    21300082: knuckle_41
+    21300084: knuckle_42
+    21300086: knuckle_43
+    21300088: knuckle_44
+    21300090: knuckle_45
+    21300092: knuckle_46
+    21300094: knuckle_47
+    21300096: knuckle_48
+    21300098: knuckle_49
+    21300100: knuckle_50
+    21300102: knuckle_51
+    21300104: knuckle_52
+    21300106: knuckle_53
+    21300108: knuckle_54
+    21300110: knuckle_55
+    21300112: knuckle_56
+    21300114: knuckle_57
+    21300116: knuckle_58
+    21300118: knuckle_59
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +116,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_1
       rect:
         serializedVersion: 2
@@ -63,6 +126,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_2
       rect:
         serializedVersion: 2
@@ -72,6 +136,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_3
       rect:
         serializedVersion: 2
@@ -81,6 +146,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_4
       rect:
         serializedVersion: 2
@@ -90,6 +156,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_5
       rect:
         serializedVersion: 2
@@ -99,6 +166,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_6
       rect:
         serializedVersion: 2
@@ -108,6 +176,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_7
       rect:
         serializedVersion: 2
@@ -117,6 +186,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_8
       rect:
         serializedVersion: 2
@@ -126,6 +196,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_9
       rect:
         serializedVersion: 2
@@ -135,6 +206,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_10
       rect:
         serializedVersion: 2
@@ -144,6 +216,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_11
       rect:
         serializedVersion: 2
@@ -153,6 +226,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_12
       rect:
         serializedVersion: 2
@@ -162,6 +236,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_13
       rect:
         serializedVersion: 2
@@ -171,6 +246,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_14
       rect:
         serializedVersion: 2
@@ -180,6 +256,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_15
       rect:
         serializedVersion: 2
@@ -189,6 +266,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_16
       rect:
         serializedVersion: 2
@@ -198,6 +276,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_17
       rect:
         serializedVersion: 2
@@ -207,6 +286,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_18
       rect:
         serializedVersion: 2
@@ -216,6 +296,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_19
       rect:
         serializedVersion: 2
@@ -225,6 +306,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_20
       rect:
         serializedVersion: 2
@@ -234,6 +316,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_21
       rect:
         serializedVersion: 2
@@ -243,6 +326,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_22
       rect:
         serializedVersion: 2
@@ -252,6 +336,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_23
       rect:
         serializedVersion: 2
@@ -261,6 +346,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_24
       rect:
         serializedVersion: 2
@@ -270,6 +356,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_25
       rect:
         serializedVersion: 2
@@ -279,6 +366,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_26
       rect:
         serializedVersion: 2
@@ -288,6 +376,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_27
       rect:
         serializedVersion: 2
@@ -297,6 +386,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_28
       rect:
         serializedVersion: 2
@@ -306,6 +396,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_29
       rect:
         serializedVersion: 2
@@ -315,6 +406,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_30
       rect:
         serializedVersion: 2
@@ -324,6 +416,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_31
       rect:
         serializedVersion: 2
@@ -333,6 +426,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_32
       rect:
         serializedVersion: 2
@@ -342,6 +436,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_33
       rect:
         serializedVersion: 2
@@ -351,6 +446,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_34
       rect:
         serializedVersion: 2
@@ -360,6 +456,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_35
       rect:
         serializedVersion: 2
@@ -369,6 +466,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_36
       rect:
         serializedVersion: 2
@@ -378,6 +476,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_37
       rect:
         serializedVersion: 2
@@ -387,6 +486,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_38
       rect:
         serializedVersion: 2
@@ -396,6 +496,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_39
       rect:
         serializedVersion: 2
@@ -405,6 +506,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_40
       rect:
         serializedVersion: 2
@@ -414,6 +516,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_41
       rect:
         serializedVersion: 2
@@ -423,6 +526,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_42
       rect:
         serializedVersion: 2
@@ -432,6 +536,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_43
       rect:
         serializedVersion: 2
@@ -441,6 +546,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_44
       rect:
         serializedVersion: 2
@@ -450,6 +556,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_45
       rect:
         serializedVersion: 2
@@ -459,6 +566,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_46
       rect:
         serializedVersion: 2
@@ -468,6 +576,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_47
       rect:
         serializedVersion: 2
@@ -477,6 +586,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_48
       rect:
         serializedVersion: 2
@@ -486,6 +596,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_49
       rect:
         serializedVersion: 2
@@ -495,6 +606,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_50
       rect:
         serializedVersion: 2
@@ -504,6 +616,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_51
       rect:
         serializedVersion: 2
@@ -513,6 +626,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_52
       rect:
         serializedVersion: 2
@@ -522,6 +636,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_53
       rect:
         serializedVersion: 2
@@ -531,6 +646,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_54
       rect:
         serializedVersion: 2
@@ -540,6 +656,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_55
       rect:
         serializedVersion: 2
@@ -549,6 +666,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_56
       rect:
         serializedVersion: 2
@@ -558,6 +676,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_57
       rect:
         serializedVersion: 2
@@ -567,6 +686,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_58
       rect:
         serializedVersion: 2
@@ -576,6 +696,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: knuckle_59
       rect:
         serializedVersion: 2
@@ -585,5 +706,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

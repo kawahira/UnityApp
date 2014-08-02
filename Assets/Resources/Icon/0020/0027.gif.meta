@@ -1,6 +1,55 @@
 fileFormatVersion: 2
 guid: c8acc01ac96a9c44889ab0bdbf4578e9
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: medicine_0
+    21300002: medicine_1
+    21300004: medicine_2
+    21300006: medicine_3
+    21300008: medicine_4
+    21300010: medicine_5
+    21300012: medicine_6
+    21300014: medicine_7
+    21300016: medicine_8
+    21300018: medicine_9
+    21300020: medicine_10
+    21300022: medicine_11
+    21300024: medicine_12
+    21300026: medicine_13
+    21300028: medicine_14
+    21300030: medicine_15
+    21300032: medicine_16
+    21300034: medicine_17
+    21300036: medicine_18
+    21300038: medicine_19
+    21300040: medicine_20
+    21300042: medicine_21
+    21300044: medicine_22
+    21300046: medicine_23
+    21300048: medicine_24
+    21300050: medicine_25
+    21300052: medicine_26
+    21300054: medicine_27
+    21300056: medicine_28
+    21300058: medicine_29
+    21300060: medicine_30
+    21300062: medicine_31
+    21300064: medicine_32
+    21300066: medicine_33
+    21300068: medicine_34
+    21300070: medicine_35
+    21300072: medicine_36
+    21300074: medicine_37
+    21300076: medicine_38
+    21300078: medicine_39
+    21300080: medicine_40
+    21300082: medicine_41
+    21300084: medicine_42
+    21300086: medicine_43
+    21300088: medicine_44
+    21300090: medicine_45
+    21300092: medicine_46
+    21300094: medicine_47
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +104,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_1
       rect:
         serializedVersion: 2
@@ -63,6 +114,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_2
       rect:
         serializedVersion: 2
@@ -72,6 +124,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_3
       rect:
         serializedVersion: 2
@@ -81,6 +134,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_4
       rect:
         serializedVersion: 2
@@ -90,6 +144,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_5
       rect:
         serializedVersion: 2
@@ -99,6 +154,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_6
       rect:
         serializedVersion: 2
@@ -108,6 +164,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_7
       rect:
         serializedVersion: 2
@@ -117,6 +174,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_8
       rect:
         serializedVersion: 2
@@ -126,6 +184,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_9
       rect:
         serializedVersion: 2
@@ -135,6 +194,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_10
       rect:
         serializedVersion: 2
@@ -144,6 +204,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_11
       rect:
         serializedVersion: 2
@@ -153,6 +214,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_12
       rect:
         serializedVersion: 2
@@ -162,6 +224,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_13
       rect:
         serializedVersion: 2
@@ -171,6 +234,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_14
       rect:
         serializedVersion: 2
@@ -180,6 +244,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_15
       rect:
         serializedVersion: 2
@@ -189,6 +254,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_16
       rect:
         serializedVersion: 2
@@ -198,6 +264,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_17
       rect:
         serializedVersion: 2
@@ -207,6 +274,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_18
       rect:
         serializedVersion: 2
@@ -216,6 +284,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_19
       rect:
         serializedVersion: 2
@@ -225,6 +294,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_20
       rect:
         serializedVersion: 2
@@ -234,6 +304,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_21
       rect:
         serializedVersion: 2
@@ -243,6 +314,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_22
       rect:
         serializedVersion: 2
@@ -252,6 +324,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_23
       rect:
         serializedVersion: 2
@@ -261,6 +334,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_24
       rect:
         serializedVersion: 2
@@ -270,6 +344,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_25
       rect:
         serializedVersion: 2
@@ -279,6 +354,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_26
       rect:
         serializedVersion: 2
@@ -288,6 +364,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_27
       rect:
         serializedVersion: 2
@@ -297,6 +374,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_28
       rect:
         serializedVersion: 2
@@ -306,6 +384,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_29
       rect:
         serializedVersion: 2
@@ -315,6 +394,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_30
       rect:
         serializedVersion: 2
@@ -324,6 +404,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_31
       rect:
         serializedVersion: 2
@@ -333,6 +414,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_32
       rect:
         serializedVersion: 2
@@ -342,6 +424,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_33
       rect:
         serializedVersion: 2
@@ -351,6 +434,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_34
       rect:
         serializedVersion: 2
@@ -360,6 +444,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_35
       rect:
         serializedVersion: 2
@@ -369,6 +454,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_36
       rect:
         serializedVersion: 2
@@ -378,6 +464,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_37
       rect:
         serializedVersion: 2
@@ -387,6 +474,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_38
       rect:
         serializedVersion: 2
@@ -396,6 +484,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_39
       rect:
         serializedVersion: 2
@@ -405,6 +494,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_40
       rect:
         serializedVersion: 2
@@ -414,6 +504,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_41
       rect:
         serializedVersion: 2
@@ -423,6 +514,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_42
       rect:
         serializedVersion: 2
@@ -432,6 +524,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_43
       rect:
         serializedVersion: 2
@@ -441,6 +534,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_44
       rect:
         serializedVersion: 2
@@ -450,6 +544,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_45
       rect:
         serializedVersion: 2
@@ -459,6 +554,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_46
       rect:
         serializedVersion: 2
@@ -468,6 +564,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: medicine_47
       rect:
         serializedVersion: 2
@@ -477,5 +574,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

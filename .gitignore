@@ -1,2 +1,6 @@
 unity.userprefs
 Library/
+obj/Debug/UnityVS.Serrow.CSharp.Editor.csproj.FileListAbsolute.txt
+obj/Debug/UnityVS.Serrow.CSharp.Plugins.csproj.FileListAbsolute.txt
+obj/Debug/UnityVS.Serrow.CSharp.csproj.FileListAbsolute.txt
+Temp/

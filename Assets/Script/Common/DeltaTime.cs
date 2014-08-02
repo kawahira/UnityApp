@@ -23,8 +23,8 @@ public class DeltaTime
 				}
 		}
 
-		private int targetFrameRate;
-		private float delta;
+//		private int targetFrameRate;
+//		private float delta;
 		private float scale = 1.0f;
 		private float base60FrameDelta = 1.0f / 60.0f;
 

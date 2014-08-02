@@ -7,7 +7,7 @@ namespace UnityTest
 	[CustomEditor (typeof (TestComponent))]
 	public class TestComponentEditor : Editor
 	{
-		private SerializedProperty testName;
+//		private SerializedProperty testName;
 		private SerializedProperty timeout;
 		private SerializedProperty ignored;
 		private SerializedProperty succeedAssertions;

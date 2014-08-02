@@ -1,6 +1,50 @@
 fileFormatVersion: 2
 guid: 60e6856beadd1d148b0e0d71222dbbc0
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: uniform_0
+    21300002: uniform_1
+    21300004: uniform_2
+    21300006: uniform_3
+    21300008: uniform_4
+    21300010: uniform_5
+    21300012: uniform_6
+    21300014: uniform_7
+    21300016: uniform_8
+    21300018: uniform_9
+    21300020: uniform_10
+    21300022: uniform_11
+    21300024: uniform_12
+    21300026: uniform_13
+    21300028: uniform_14
+    21300030: uniform_15
+    21300032: uniform_16
+    21300034: uniform_17
+    21300036: uniform_18
+    21300038: uniform_19
+    21300040: uniform_20
+    21300042: uniform_21
+    21300044: uniform_22
+    21300046: uniform_23
+    21300048: uniform_24
+    21300050: uniform_25
+    21300052: uniform_26
+    21300054: uniform_27
+    21300056: uniform_28
+    21300058: uniform_29
+    21300060: uniform_30
+    21300062: uniform_31
+    21300064: uniform_32
+    21300066: uniform_33
+    21300068: uniform_34
+    21300070: uniform_35
+    21300072: uniform_36
+    21300074: uniform_37
+    21300076: uniform_38
+    21300078: uniform_39
+    21300080: uniform_40
+    21300082: uniform_41
+    21300084: uniform_42
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +79,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +99,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_1
       rect:
         serializedVersion: 2
@@ -63,6 +109,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_2
       rect:
         serializedVersion: 2
@@ -72,6 +119,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_3
       rect:
         serializedVersion: 2
@@ -81,6 +129,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_4
       rect:
         serializedVersion: 2
@@ -90,6 +139,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_5
       rect:
         serializedVersion: 2
@@ -99,6 +149,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_6
       rect:
         serializedVersion: 2
@@ -108,6 +159,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_7
       rect:
         serializedVersion: 2
@@ -117,6 +169,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_8
       rect:
         serializedVersion: 2
@@ -126,6 +179,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_9
       rect:
         serializedVersion: 2
@@ -135,6 +189,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_10
       rect:
         serializedVersion: 2
@@ -144,6 +199,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_11
       rect:
         serializedVersion: 2
@@ -153,6 +209,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_12
       rect:
         serializedVersion: 2
@@ -162,6 +219,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_13
       rect:
         serializedVersion: 2
@@ -171,6 +229,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_14
       rect:
         serializedVersion: 2
@@ -180,6 +239,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_15
       rect:
         serializedVersion: 2
@@ -189,6 +249,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_16
       rect:
         serializedVersion: 2
@@ -198,6 +259,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_17
       rect:
         serializedVersion: 2
@@ -207,6 +269,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_18
       rect:
         serializedVersion: 2
@@ -216,6 +279,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_19
       rect:
         serializedVersion: 2
@@ -225,6 +289,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_20
       rect:
         serializedVersion: 2
@@ -234,6 +299,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_21
       rect:
         serializedVersion: 2
@@ -243,6 +309,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_22
       rect:
         serializedVersion: 2
@@ -252,6 +319,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_23
       rect:
         serializedVersion: 2
@@ -261,6 +329,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_24
       rect:
         serializedVersion: 2
@@ -270,6 +339,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_25
       rect:
         serializedVersion: 2
@@ -279,6 +349,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_26
       rect:
         serializedVersion: 2
@@ -288,6 +359,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_27
       rect:
         serializedVersion: 2
@@ -297,6 +369,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_28
       rect:
         serializedVersion: 2
@@ -306,6 +379,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_29
       rect:
         serializedVersion: 2
@@ -315,6 +389,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_30
       rect:
         serializedVersion: 2
@@ -324,6 +399,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_31
       rect:
         serializedVersion: 2
@@ -333,6 +409,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_32
       rect:
         serializedVersion: 2
@@ -342,6 +419,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_33
       rect:
         serializedVersion: 2
@@ -351,6 +429,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_34
       rect:
         serializedVersion: 2
@@ -360,6 +439,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_35
       rect:
         serializedVersion: 2
@@ -369,6 +449,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_36
       rect:
         serializedVersion: 2
@@ -378,6 +459,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_37
       rect:
         serializedVersion: 2
@@ -387,6 +469,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_38
       rect:
         serializedVersion: 2
@@ -396,6 +479,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_39
       rect:
         serializedVersion: 2
@@ -405,6 +489,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_40
       rect:
         serializedVersion: 2
@@ -414,6 +499,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_41
       rect:
         serializedVersion: 2
@@ -423,6 +509,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: uniform_42
       rect:
         serializedVersion: 2
@@ -432,5 +519,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -31,27 +31,26 @@ namespace Game
 				}
 				private void buildSettingData() {
 					setting.platformURLPrefix = "https://dl.dropboxusercontent.com/u/86805032/AssetBundle";
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.Android						,"Android"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.BB10Player 				,"BlackBerry"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.NaCl 							,"GoogleNative"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.IPhonePlayer 			,"iOS"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.LinuxPlayer 				,"Linux"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.MetroPlayerARM 		,"Metro"));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.Android			,"Android"));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.BlackBerryPlayer	,"BlackBerry"));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.NaCl 				,"GoogleNative"));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.IPhonePlayer 		,"iOS"));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.LinuxPlayer 		,"Linux"));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.MetroPlayerARM 	,"Metro"));
 					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.OSXDashboardPlayer ,"OSXIntel"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.OSXWebPlayer 			,"WebPlayer"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.WindowsPlayer 			,"Windows"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.WP8Player 					,"WindowsPhone8"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.FlashPlayer 				,"Flash"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.TizenPlayer 				,"Tizen"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.PS3 								,"PS3"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.WiiPlayer 					,"Wii"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.XBOX360 						,"XBOX360"));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.MetroPlayerX64 		,setting.GetPlatformURL(RuntimePlatform.MetroPlayerARM)));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.MetroPlayerX86 		,setting.GetPlatformURL(RuntimePlatform.MetroPlayerARM)));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.OSXWebPlayer 		,"WebPlayer"));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.WindowsPlayer 		,"Windows"));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.WP8Player 			,"WindowsPhone8"));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.FlashPlayer 		,"Flash"));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.TizenPlayer 		,"Tizen"));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.PS3                ,"PS3"));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.XBOX360            ,"XBOX360"));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.MetroPlayerX64 	,setting.GetPlatformURL(RuntimePlatform.MetroPlayerARM)));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.MetroPlayerX86 	,setting.GetPlatformURL(RuntimePlatform.MetroPlayerARM)));
 					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.WindowsWebPlayer 	,setting.GetPlatformURL(RuntimePlatform.OSXWebPlayer)));		
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.OSXEditor 					,setting.GetPlatformURL(RuntimePlatform.OSXDashboardPlayer)));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.OSXPlayer 					,setting.GetPlatformURL(RuntimePlatform.OSXDashboardPlayer)));
-					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.WindowsEditor 			,setting.GetPlatformURL(RuntimePlatform.WindowsPlayer)));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.OSXEditor 			,setting.GetPlatformURL(RuntimePlatform.OSXDashboardPlayer)));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.OSXPlayer 			,setting.GetPlatformURL(RuntimePlatform.OSXDashboardPlayer)));
+					setting.platformURL.Add(new Pair<RuntimePlatform,string>(RuntimePlatform.WindowsEditor 		,setting.GetPlatformURL(RuntimePlatform.WindowsPlayer)));
 					{
 							SerializeData.Scene scene = new SerializeData.Scene(typeof(Scene.Boot).FullName, null);
 							scene.files.Add("Mapchip");

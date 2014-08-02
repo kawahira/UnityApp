@@ -1,6 +1,36 @@
 fileFormatVersion: 2
 guid: a7f435013bd79b14f8c213a213da8ea5
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: accessories_0
+    21300002: accessories_1
+    21300004: accessories_2
+    21300006: accessories_3
+    21300008: accessories_4
+    21300010: accessories_5
+    21300012: accessories_6
+    21300014: accessories_7
+    21300016: accessories_8
+    21300018: accessories_9
+    21300020: accessories_10
+    21300022: accessories_11
+    21300024: accessories_12
+    21300026: accessories_13
+    21300028: accessories_14
+    21300030: accessories_15
+    21300032: accessories_16
+    21300034: accessories_17
+    21300036: accessories_18
+    21300038: accessories_19
+    21300040: accessories_20
+    21300042: accessories_21
+    21300044: accessories_22
+    21300046: accessories_23
+    21300048: accessories_24
+    21300050: accessories_25
+    21300052: accessories_26
+    21300054: accessories_27
+    21300056: accessories_28
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +65,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +85,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_1
       rect:
         serializedVersion: 2
@@ -63,6 +95,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_2
       rect:
         serializedVersion: 2
@@ -72,6 +105,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_3
       rect:
         serializedVersion: 2
@@ -81,6 +115,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_4
       rect:
         serializedVersion: 2
@@ -90,6 +125,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_5
       rect:
         serializedVersion: 2
@@ -99,6 +135,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_6
       rect:
         serializedVersion: 2
@@ -108,6 +145,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_7
       rect:
         serializedVersion: 2
@@ -117,6 +155,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_8
       rect:
         serializedVersion: 2
@@ -126,6 +165,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_9
       rect:
         serializedVersion: 2
@@ -135,6 +175,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_10
       rect:
         serializedVersion: 2
@@ -144,6 +185,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_11
       rect:
         serializedVersion: 2
@@ -153,6 +195,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_12
       rect:
         serializedVersion: 2
@@ -162,6 +205,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_13
       rect:
         serializedVersion: 2
@@ -171,6 +215,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_14
       rect:
         serializedVersion: 2
@@ -180,6 +225,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_15
       rect:
         serializedVersion: 2
@@ -189,6 +235,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_16
       rect:
         serializedVersion: 2
@@ -198,6 +245,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_17
       rect:
         serializedVersion: 2
@@ -207,6 +255,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_18
       rect:
         serializedVersion: 2
@@ -216,6 +265,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_19
       rect:
         serializedVersion: 2
@@ -225,6 +275,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_20
       rect:
         serializedVersion: 2
@@ -234,6 +285,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_21
       rect:
         serializedVersion: 2
@@ -243,6 +295,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_22
       rect:
         serializedVersion: 2
@@ -252,6 +305,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_23
       rect:
         serializedVersion: 2
@@ -261,6 +315,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_24
       rect:
         serializedVersion: 2
@@ -270,6 +325,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_25
       rect:
         serializedVersion: 2
@@ -279,6 +335,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_26
       rect:
         serializedVersion: 2
@@ -288,6 +345,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_27
       rect:
         serializedVersion: 2
@@ -297,6 +355,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: accessories_28
       rect:
         serializedVersion: 2
@@ -306,5 +365,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

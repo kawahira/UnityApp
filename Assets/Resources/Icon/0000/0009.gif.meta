@@ -1,6 +1,10 @@
 fileFormatVersion: 2
 guid: bdae70d53b5a41a45bae5e1db78f2056
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: cape_0
+    21300002: cape_1
+    21300004: cape_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +39,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +59,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: cape_1
       rect:
         serializedVersion: 2
@@ -63,6 +69,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: cape_2
       rect:
         serializedVersion: 2
@@ -72,5 +79,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

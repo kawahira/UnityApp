@@ -1,6 +1,135 @@
 fileFormatVersion: 2
 guid: 62481ac7650594d42bf3c5f465893a1b
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: TileA5_0
+    21300002: TileA5_1
+    21300004: TileA5_2
+    21300006: TileA5_3
+    21300008: TileA5_4
+    21300010: TileA5_5
+    21300012: TileA5_6
+    21300014: TileA5_7
+    21300016: TileA5_8
+    21300018: TileA5_9
+    21300020: TileA5_10
+    21300022: TileA5_11
+    21300024: TileA5_12
+    21300026: TileA5_13
+    21300028: TileA5_14
+    21300030: TileA5_15
+    21300032: TileA5_16
+    21300034: TileA5_17
+    21300036: TileA5_18
+    21300038: TileA5_19
+    21300040: TileA5_20
+    21300042: TileA5_21
+    21300044: TileA5_22
+    21300046: TileA5_23
+    21300048: TileA5_24
+    21300050: TileA5_25
+    21300052: TileA5_26
+    21300054: TileA5_27
+    21300056: TileA5_28
+    21300058: TileA5_29
+    21300060: TileA5_30
+    21300062: TileA5_31
+    21300064: TileA5_32
+    21300066: TileA5_33
+    21300068: TileA5_34
+    21300070: TileA5_35
+    21300072: TileA5_36
+    21300074: TileA5_37
+    21300076: TileA5_38
+    21300078: TileA5_39
+    21300080: TileA5_40
+    21300082: TileA5_41
+    21300084: TileA5_42
+    21300086: TileA5_43
+    21300088: TileA5_44
+    21300090: TileA5_45
+    21300092: TileA5_46
+    21300094: TileA5_47
+    21300096: TileA5_48
+    21300098: TileA5_49
+    21300100: TileA5_50
+    21300102: TileA5_51
+    21300104: TileA5_52
+    21300106: TileA5_53
+    21300108: TileA5_54
+    21300110: TileA5_55
+    21300112: TileA5_56
+    21300114: TileA5_57
+    21300116: TileA5_58
+    21300118: TileA5_59
+    21300120: TileA5_60
+    21300122: TileA5_61
+    21300124: TileA5_62
+    21300126: TileA5_63
+    21300128: TileA5_64
+    21300130: TileA5_65
+    21300132: TileA5_66
+    21300134: TileA5_67
+    21300136: TileA5_68
+    21300138: TileA5_69
+    21300140: TileA5_70
+    21300142: TileA5_71
+    21300144: TileA5_72
+    21300146: TileA5_73
+    21300148: TileA5_74
+    21300150: TileA5_75
+    21300152: TileA5_76
+    21300154: TileA5_77
+    21300156: TileA5_78
+    21300158: TileA5_79
+    21300160: TileA5_80
+    21300162: TileA5_81
+    21300164: TileA5_82
+    21300166: TileA5_83
+    21300168: TileA5_84
+    21300170: TileA5_85
+    21300172: TileA5_86
+    21300174: TileA5_87
+    21300176: TileA5_88
+    21300178: TileA5_89
+    21300180: TileA5_90
+    21300182: TileA5_91
+    21300184: TileA5_92
+    21300186: TileA5_93
+    21300188: TileA5_94
+    21300190: TileA5_95
+    21300192: TileA5_96
+    21300194: TileA5_97
+    21300196: TileA5_98
+    21300198: TileA5_99
+    21300200: TileA5_100
+    21300202: TileA5_101
+    21300204: TileA5_102
+    21300206: TileA5_103
+    21300208: TileA5_104
+    21300210: TileA5_105
+    21300212: TileA5_106
+    21300214: TileA5_107
+    21300216: TileA5_108
+    21300218: TileA5_109
+    21300220: TileA5_110
+    21300222: TileA5_111
+    21300224: TileA5_112
+    21300226: TileA5_113
+    21300228: TileA5_114
+    21300230: TileA5_115
+    21300232: TileA5_116
+    21300234: TileA5_117
+    21300236: TileA5_118
+    21300238: TileA5_119
+    21300240: TileA5_120
+    21300242: TileA5_121
+    21300244: TileA5_122
+    21300246: TileA5_123
+    21300248: TileA5_124
+    21300250: TileA5_125
+    21300252: TileA5_126
+    21300254: TileA5_127
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +164,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 5
@@ -58,6 +188,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_1
       rect:
         serializedVersion: 2
@@ -67,6 +198,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_2
       rect:
         serializedVersion: 2
@@ -76,6 +208,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_3
       rect:
         serializedVersion: 2
@@ -85,6 +218,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_4
       rect:
         serializedVersion: 2
@@ -94,6 +228,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_5
       rect:
         serializedVersion: 2
@@ -103,6 +238,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_6
       rect:
         serializedVersion: 2
@@ -112,6 +248,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_7
       rect:
         serializedVersion: 2
@@ -121,6 +258,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_8
       rect:
         serializedVersion: 2
@@ -130,6 +268,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_9
       rect:
         serializedVersion: 2
@@ -139,6 +278,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_10
       rect:
         serializedVersion: 2
@@ -148,6 +288,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_11
       rect:
         serializedVersion: 2
@@ -157,6 +298,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_12
       rect:
         serializedVersion: 2
@@ -166,6 +308,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_13
       rect:
         serializedVersion: 2
@@ -175,6 +318,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_14
       rect:
         serializedVersion: 2
@@ -184,6 +328,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_15
       rect:
         serializedVersion: 2
@@ -193,6 +338,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_16
       rect:
         serializedVersion: 2
@@ -202,6 +348,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_17
       rect:
         serializedVersion: 2
@@ -211,6 +358,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_18
       rect:
         serializedVersion: 2
@@ -220,6 +368,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_19
       rect:
         serializedVersion: 2
@@ -229,6 +378,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_20
       rect:
         serializedVersion: 2
@@ -238,6 +388,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_21
       rect:
         serializedVersion: 2
@@ -247,6 +398,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_22
       rect:
         serializedVersion: 2
@@ -256,6 +408,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_23
       rect:
         serializedVersion: 2
@@ -265,6 +418,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_24
       rect:
         serializedVersion: 2
@@ -274,6 +428,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_25
       rect:
         serializedVersion: 2
@@ -283,6 +438,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_26
       rect:
         serializedVersion: 2
@@ -292,6 +448,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_27
       rect:
         serializedVersion: 2
@@ -301,6 +458,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_28
       rect:
         serializedVersion: 2
@@ -310,6 +468,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_29
       rect:
         serializedVersion: 2
@@ -319,6 +478,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_30
       rect:
         serializedVersion: 2
@@ -328,6 +488,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_31
       rect:
         serializedVersion: 2
@@ -337,6 +498,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_32
       rect:
         serializedVersion: 2
@@ -346,6 +508,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_33
       rect:
         serializedVersion: 2
@@ -355,6 +518,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_34
       rect:
         serializedVersion: 2
@@ -364,6 +528,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_35
       rect:
         serializedVersion: 2
@@ -373,6 +538,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_36
       rect:
         serializedVersion: 2
@@ -382,6 +548,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_37
       rect:
         serializedVersion: 2
@@ -391,6 +558,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_38
       rect:
         serializedVersion: 2
@@ -400,6 +568,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_39
       rect:
         serializedVersion: 2
@@ -409,6 +578,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_40
       rect:
         serializedVersion: 2
@@ -418,6 +588,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_41
       rect:
         serializedVersion: 2
@@ -427,6 +598,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_42
       rect:
         serializedVersion: 2
@@ -436,6 +608,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_43
       rect:
         serializedVersion: 2
@@ -445,6 +618,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_44
       rect:
         serializedVersion: 2
@@ -454,6 +628,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_45
       rect:
         serializedVersion: 2
@@ -463,6 +638,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_46
       rect:
         serializedVersion: 2
@@ -472,6 +648,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_47
       rect:
         serializedVersion: 2
@@ -481,6 +658,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_48
       rect:
         serializedVersion: 2
@@ -490,6 +668,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_49
       rect:
         serializedVersion: 2
@@ -499,6 +678,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_50
       rect:
         serializedVersion: 2
@@ -508,6 +688,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_51
       rect:
         serializedVersion: 2
@@ -517,6 +698,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_52
       rect:
         serializedVersion: 2
@@ -526,6 +708,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_53
       rect:
         serializedVersion: 2
@@ -535,6 +718,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_54
       rect:
         serializedVersion: 2
@@ -544,6 +728,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_55
       rect:
         serializedVersion: 2
@@ -553,6 +738,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_56
       rect:
         serializedVersion: 2
@@ -562,6 +748,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_57
       rect:
         serializedVersion: 2
@@ -571,6 +758,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_58
       rect:
         serializedVersion: 2
@@ -580,6 +768,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_59
       rect:
         serializedVersion: 2
@@ -589,6 +778,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_60
       rect:
         serializedVersion: 2
@@ -598,6 +788,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_61
       rect:
         serializedVersion: 2
@@ -607,6 +798,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_62
       rect:
         serializedVersion: 2
@@ -616,6 +808,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_63
       rect:
         serializedVersion: 2
@@ -625,6 +818,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_64
       rect:
         serializedVersion: 2
@@ -634,6 +828,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_65
       rect:
         serializedVersion: 2
@@ -643,6 +838,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_66
       rect:
         serializedVersion: 2
@@ -652,6 +848,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_67
       rect:
         serializedVersion: 2
@@ -661,6 +858,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_68
       rect:
         serializedVersion: 2
@@ -670,6 +868,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_69
       rect:
         serializedVersion: 2
@@ -679,6 +878,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_70
       rect:
         serializedVersion: 2
@@ -688,6 +888,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_71
       rect:
         serializedVersion: 2
@@ -697,6 +898,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_72
       rect:
         serializedVersion: 2
@@ -706,6 +908,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_73
       rect:
         serializedVersion: 2
@@ -715,6 +918,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_74
       rect:
         serializedVersion: 2
@@ -724,6 +928,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_75
       rect:
         serializedVersion: 2
@@ -733,6 +938,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_76
       rect:
         serializedVersion: 2
@@ -742,6 +948,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_77
       rect:
         serializedVersion: 2
@@ -751,6 +958,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_78
       rect:
         serializedVersion: 2
@@ -760,6 +968,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_79
       rect:
         serializedVersion: 2
@@ -769,6 +978,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_80
       rect:
         serializedVersion: 2
@@ -778,6 +988,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_81
       rect:
         serializedVersion: 2
@@ -787,6 +998,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_82
       rect:
         serializedVersion: 2
@@ -796,6 +1008,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_83
       rect:
         serializedVersion: 2
@@ -805,6 +1018,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_84
       rect:
         serializedVersion: 2
@@ -814,6 +1028,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_85
       rect:
         serializedVersion: 2
@@ -823,6 +1038,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_86
       rect:
         serializedVersion: 2
@@ -832,6 +1048,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_87
       rect:
         serializedVersion: 2
@@ -841,6 +1058,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_88
       rect:
         serializedVersion: 2
@@ -850,6 +1068,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_89
       rect:
         serializedVersion: 2
@@ -859,6 +1078,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_90
       rect:
         serializedVersion: 2
@@ -868,6 +1088,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_91
       rect:
         serializedVersion: 2
@@ -877,6 +1098,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_92
       rect:
         serializedVersion: 2
@@ -886,6 +1108,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_93
       rect:
         serializedVersion: 2
@@ -895,6 +1118,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_94
       rect:
         serializedVersion: 2
@@ -904,6 +1128,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_95
       rect:
         serializedVersion: 2
@@ -913,6 +1138,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_96
       rect:
         serializedVersion: 2
@@ -922,6 +1148,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_97
       rect:
         serializedVersion: 2
@@ -931,6 +1158,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_98
       rect:
         serializedVersion: 2
@@ -940,6 +1168,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_99
       rect:
         serializedVersion: 2
@@ -949,6 +1178,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_100
       rect:
         serializedVersion: 2
@@ -958,6 +1188,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_101
       rect:
         serializedVersion: 2
@@ -967,6 +1198,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_102
       rect:
         serializedVersion: 2
@@ -976,6 +1208,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_103
       rect:
         serializedVersion: 2
@@ -985,6 +1218,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_104
       rect:
         serializedVersion: 2
@@ -994,6 +1228,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_105
       rect:
         serializedVersion: 2
@@ -1003,6 +1238,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_106
       rect:
         serializedVersion: 2
@@ -1012,6 +1248,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_107
       rect:
         serializedVersion: 2
@@ -1021,6 +1258,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_108
       rect:
         serializedVersion: 2
@@ -1030,6 +1268,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_109
       rect:
         serializedVersion: 2
@@ -1039,6 +1278,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_110
       rect:
         serializedVersion: 2
@@ -1048,6 +1288,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_111
       rect:
         serializedVersion: 2
@@ -1057,6 +1298,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_112
       rect:
         serializedVersion: 2
@@ -1066,6 +1308,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_113
       rect:
         serializedVersion: 2
@@ -1075,6 +1318,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_114
       rect:
         serializedVersion: 2
@@ -1084,6 +1328,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_115
       rect:
         serializedVersion: 2
@@ -1093,6 +1338,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_116
       rect:
         serializedVersion: 2
@@ -1102,6 +1348,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_117
       rect:
         serializedVersion: 2
@@ -1111,6 +1358,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_118
       rect:
         serializedVersion: 2
@@ -1120,6 +1368,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_119
       rect:
         serializedVersion: 2
@@ -1129,6 +1378,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_120
       rect:
         serializedVersion: 2
@@ -1138,6 +1388,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_121
       rect:
         serializedVersion: 2
@@ -1147,6 +1398,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_122
       rect:
         serializedVersion: 2
@@ -1156,6 +1408,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_123
       rect:
         serializedVersion: 2
@@ -1165,6 +1418,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_124
       rect:
         serializedVersion: 2
@@ -1174,6 +1428,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_125
       rect:
         serializedVersion: 2
@@ -1183,6 +1438,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_126
       rect:
         serializedVersion: 2
@@ -1192,6 +1448,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: TileA5_127
       rect:
         serializedVersion: 2
@@ -1201,5 +1458,6 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

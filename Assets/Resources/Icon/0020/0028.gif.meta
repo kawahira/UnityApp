@@ -1,6 +1,39 @@
 fileFormatVersion: 2
 guid: 7a8cf371fde2ad14990f12ae61c48afa
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: moe_0
+    21300002: moe_1
+    21300004: moe_2
+    21300006: moe_3
+    21300008: moe_4
+    21300010: moe_5
+    21300012: moe_6
+    21300014: moe_7
+    21300016: moe_8
+    21300018: moe_9
+    21300020: moe_10
+    21300022: moe_11
+    21300024: moe_12
+    21300026: moe_13
+    21300028: moe_14
+    21300030: moe_15
+    21300032: moe_16
+    21300034: moe_17
+    21300036: moe_18
+    21300038: moe_19
+    21300040: moe_20
+    21300042: moe_21
+    21300044: moe_22
+    21300046: moe_23
+    21300048: moe_24
+    21300050: moe_25
+    21300052: moe_26
+    21300054: moe_27
+    21300056: moe_28
+    21300058: moe_29
+    21300060: moe_30
+    21300062: moe_31
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +68,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +88,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_1
       rect:
         serializedVersion: 2
@@ -63,6 +98,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_2
       rect:
         serializedVersion: 2
@@ -72,6 +108,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_3
       rect:
         serializedVersion: 2
@@ -81,6 +118,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_4
       rect:
         serializedVersion: 2
@@ -90,6 +128,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_5
       rect:
         serializedVersion: 2
@@ -99,6 +138,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_6
       rect:
         serializedVersion: 2
@@ -108,6 +148,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_7
       rect:
         serializedVersion: 2
@@ -117,6 +158,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_8
       rect:
         serializedVersion: 2
@@ -126,6 +168,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_9
       rect:
         serializedVersion: 2
@@ -135,6 +178,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_10
       rect:
         serializedVersion: 2
@@ -144,6 +188,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_11
       rect:
         serializedVersion: 2
@@ -153,6 +198,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_12
       rect:
         serializedVersion: 2
@@ -162,6 +208,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_13
       rect:
         serializedVersion: 2
@@ -171,6 +218,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_14
       rect:
         serializedVersion: 2
@@ -180,6 +228,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_15
       rect:
         serializedVersion: 2
@@ -189,6 +238,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_16
       rect:
         serializedVersion: 2
@@ -198,6 +248,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_17
       rect:
         serializedVersion: 2
@@ -207,6 +258,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_18
       rect:
         serializedVersion: 2
@@ -216,6 +268,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_19
       rect:
         serializedVersion: 2
@@ -225,6 +278,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_20
       rect:
         serializedVersion: 2
@@ -234,6 +288,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_21
       rect:
         serializedVersion: 2
@@ -243,6 +298,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_22
       rect:
         serializedVersion: 2
@@ -252,6 +308,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_23
       rect:
         serializedVersion: 2
@@ -261,6 +318,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_24
       rect:
         serializedVersion: 2
@@ -270,6 +328,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_25
       rect:
         serializedVersion: 2
@@ -279,6 +338,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_26
       rect:
         serializedVersion: 2
@@ -288,6 +348,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_27
       rect:
         serializedVersion: 2
@@ -297,6 +358,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_28
       rect:
         serializedVersion: 2
@@ -306,6 +368,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_29
       rect:
         serializedVersion: 2
@@ -315,6 +378,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_30
       rect:
         serializedVersion: 2
@@ -324,6 +388,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: moe_31
       rect:
         serializedVersion: 2
@@ -333,5 +398,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

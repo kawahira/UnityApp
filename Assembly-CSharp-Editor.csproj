@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_3;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;ENABLE_DUCK_TYPING</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_PRO_LICENSE;ENABLE_DUCK_TYPING</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -80,42 +80,36 @@
      <None Include="Assets\UnityTestTools\LICENSE.txt" />
      <None Include="Assets\Resources\Json\TestStage.txt" />
      <None Include="Assets\UnityTestTools\changelog.txt" />
- <Reference Include="Assets\UnityTestTools\UnitTesting\Editor\NSubstitute\NSubstitute">
- <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NSubstitute\NSubstitute.dll</HintPath>
+ <Reference Include="NSubstitute">
+ <HintPath>C:/Users/Private201406/Dropbox/Sources/Serrow/Assets/UnityTestTools/UnitTesting/Editor/NSubstitute/NSubstitute.dll</HintPath>
  </Reference>
- <Reference Include="Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\Mono.Cecil">
- <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\Mono.Cecil.dll</HintPath>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/Users/Private201406/Dropbox/Sources/Serrow/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/Mono.Cecil.dll</HintPath>
  </Reference>
- <Reference Include="Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\Mono.Cecil.Mdb">
- <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\Mono.Cecil.Mdb.dll</HintPath>
+ <Reference Include="Mono.Cecil.Mdb">
+ <HintPath>C:/Users/Private201406/Dropbox/Sources/Serrow/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/Mono.Cecil.Mdb.dll</HintPath>
  </Reference>
- <Reference Include="Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\nunit.core">
- <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\nunit.core.dll</HintPath>
+ <Reference Include="nunit.core">
+ <HintPath>C:/Users/Private201406/Dropbox/Sources/Serrow/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/nunit.core.dll</HintPath>
  </Reference>
- <Reference Include="Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\nunit.core.interfaces">
- <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\nunit.core.interfaces.dll</HintPath>
+ <Reference Include="nunit.core.interfaces">
+ <HintPath>C:/Users/Private201406/Dropbox/Sources/Serrow/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/nunit.core.interfaces.dll</HintPath>
  </Reference>
- <Reference Include="Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\nunit.framework">
- <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\nunit.framework.dll</HintPath>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Users/Private201406/Dropbox/Sources/Serrow/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/nunit.framework.dll</HintPath>
  </Reference>
- <Reference Include="\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs">
- <HintPath>\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs.dll</HintPath>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+ <HintPath>C:/Users/Private201406/Dropbox/Sources/Serrow/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
- <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions">
- <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+ <HintPath>C:/Users/Private201406/Dropbox/Sources/Serrow/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
  </Reference>
- <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions">
- <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
- <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions">
- <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ <Reference Include="UnityVS.VersionSpecific">
+ <HintPath>C:/Users/Private201406/Dropbox/Sources/Serrow/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{06EFD438-01AB-93D9-97E2-49DB10A51592}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{5823860B-AA47-2252-7F86-C7A130B6BB75}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

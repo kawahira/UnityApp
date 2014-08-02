@@ -1,6 +1,93 @@
 fileFormatVersion: 2
 guid: dfabaf8b6ac3f434397947ab8d792f72
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: protector_0
+    21300002: protector_1
+    21300004: protector_2
+    21300006: protector_3
+    21300008: protector_4
+    21300010: protector_5
+    21300012: protector_6
+    21300014: protector_7
+    21300016: protector_8
+    21300018: protector_9
+    21300020: protector_10
+    21300022: protector_11
+    21300024: protector_12
+    21300026: protector_13
+    21300028: protector_14
+    21300030: protector_15
+    21300032: protector_16
+    21300034: protector_17
+    21300036: protector_18
+    21300038: protector_19
+    21300040: protector_20
+    21300042: protector_21
+    21300044: protector_22
+    21300046: protector_23
+    21300048: protector_24
+    21300050: protector_25
+    21300052: protector_26
+    21300054: protector_27
+    21300056: protector_28
+    21300058: protector_29
+    21300060: protector_30
+    21300062: protector_31
+    21300064: protector_32
+    21300066: protector_33
+    21300068: protector_34
+    21300070: protector_35
+    21300072: protector_36
+    21300074: protector_37
+    21300076: protector_38
+    21300078: protector_39
+    21300080: protector_40
+    21300082: protector_41
+    21300084: protector_42
+    21300086: protector_43
+    21300088: protector_44
+    21300090: protector_45
+    21300092: protector_46
+    21300094: protector_47
+    21300096: protector_48
+    21300098: protector_49
+    21300100: protector_50
+    21300102: protector_51
+    21300104: protector_52
+    21300106: protector_53
+    21300108: protector_54
+    21300110: protector_55
+    21300112: protector_56
+    21300114: protector_57
+    21300116: protector_58
+    21300118: protector_59
+    21300120: protector_60
+    21300122: protector_61
+    21300124: protector_62
+    21300126: protector_63
+    21300128: protector_64
+    21300130: protector_65
+    21300132: protector_66
+    21300134: protector_67
+    21300136: protector_68
+    21300138: protector_69
+    21300140: protector_70
+    21300142: protector_71
+    21300144: protector_72
+    21300146: protector_73
+    21300148: protector_74
+    21300150: protector_75
+    21300152: protector_76
+    21300154: protector_77
+    21300156: protector_78
+    21300158: protector_79
+    21300160: protector_80
+    21300162: protector_81
+    21300164: protector_82
+    21300166: protector_83
+    21300168: protector_84
+    21300170: protector_85
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +122,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +142,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_1
       rect:
         serializedVersion: 2
@@ -63,6 +152,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_2
       rect:
         serializedVersion: 2
@@ -72,6 +162,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_3
       rect:
         serializedVersion: 2
@@ -81,6 +172,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_4
       rect:
         serializedVersion: 2
@@ -90,6 +182,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_5
       rect:
         serializedVersion: 2
@@ -99,6 +192,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_6
       rect:
         serializedVersion: 2
@@ -108,6 +202,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_7
       rect:
         serializedVersion: 2
@@ -117,6 +212,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_8
       rect:
         serializedVersion: 2
@@ -126,6 +222,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_9
       rect:
         serializedVersion: 2
@@ -135,6 +232,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_10
       rect:
         serializedVersion: 2
@@ -144,6 +242,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_11
       rect:
         serializedVersion: 2
@@ -153,6 +252,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_12
       rect:
         serializedVersion: 2
@@ -162,6 +262,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_13
       rect:
         serializedVersion: 2
@@ -171,6 +272,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_14
       rect:
         serializedVersion: 2
@@ -180,6 +282,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_15
       rect:
         serializedVersion: 2
@@ -189,6 +292,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_16
       rect:
         serializedVersion: 2
@@ -198,6 +302,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_17
       rect:
         serializedVersion: 2
@@ -207,6 +312,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_18
       rect:
         serializedVersion: 2
@@ -216,6 +322,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_19
       rect:
         serializedVersion: 2
@@ -225,6 +332,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_20
       rect:
         serializedVersion: 2
@@ -234,6 +342,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_21
       rect:
         serializedVersion: 2
@@ -243,6 +352,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_22
       rect:
         serializedVersion: 2
@@ -252,6 +362,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_23
       rect:
         serializedVersion: 2
@@ -261,6 +372,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_24
       rect:
         serializedVersion: 2
@@ -270,6 +382,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_25
       rect:
         serializedVersion: 2
@@ -279,6 +392,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_26
       rect:
         serializedVersion: 2
@@ -288,6 +402,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_27
       rect:
         serializedVersion: 2
@@ -297,6 +412,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_28
       rect:
         serializedVersion: 2
@@ -306,6 +422,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_29
       rect:
         serializedVersion: 2
@@ -315,6 +432,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_30
       rect:
         serializedVersion: 2
@@ -324,6 +442,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_31
       rect:
         serializedVersion: 2
@@ -333,6 +452,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_32
       rect:
         serializedVersion: 2
@@ -342,6 +462,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_33
       rect:
         serializedVersion: 2
@@ -351,6 +472,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_34
       rect:
         serializedVersion: 2
@@ -360,6 +482,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_35
       rect:
         serializedVersion: 2
@@ -369,6 +492,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_36
       rect:
         serializedVersion: 2
@@ -378,6 +502,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_37
       rect:
         serializedVersion: 2
@@ -387,6 +512,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_38
       rect:
         serializedVersion: 2
@@ -396,6 +522,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_39
       rect:
         serializedVersion: 2
@@ -405,6 +532,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_40
       rect:
         serializedVersion: 2
@@ -414,6 +542,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_41
       rect:
         serializedVersion: 2
@@ -423,6 +552,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_42
       rect:
         serializedVersion: 2
@@ -432,6 +562,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_43
       rect:
         serializedVersion: 2
@@ -441,6 +572,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_44
       rect:
         serializedVersion: 2
@@ -450,6 +582,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_45
       rect:
         serializedVersion: 2
@@ -459,6 +592,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_46
       rect:
         serializedVersion: 2
@@ -468,6 +602,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_47
       rect:
         serializedVersion: 2
@@ -477,6 +612,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_48
       rect:
         serializedVersion: 2
@@ -486,6 +622,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_49
       rect:
         serializedVersion: 2
@@ -495,6 +632,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_50
       rect:
         serializedVersion: 2
@@ -504,6 +642,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_51
       rect:
         serializedVersion: 2
@@ -513,6 +652,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_52
       rect:
         serializedVersion: 2
@@ -522,6 +662,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_53
       rect:
         serializedVersion: 2
@@ -531,6 +672,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_54
       rect:
         serializedVersion: 2
@@ -540,6 +682,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_55
       rect:
         serializedVersion: 2
@@ -549,6 +692,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_56
       rect:
         serializedVersion: 2
@@ -558,6 +702,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_57
       rect:
         serializedVersion: 2
@@ -567,6 +712,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_58
       rect:
         serializedVersion: 2
@@ -576,6 +722,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_59
       rect:
         serializedVersion: 2
@@ -585,6 +732,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_60
       rect:
         serializedVersion: 2
@@ -594,6 +742,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_61
       rect:
         serializedVersion: 2
@@ -603,6 +752,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_62
       rect:
         serializedVersion: 2
@@ -612,6 +762,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_63
       rect:
         serializedVersion: 2
@@ -621,6 +772,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_64
       rect:
         serializedVersion: 2
@@ -630,6 +782,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_65
       rect:
         serializedVersion: 2
@@ -639,6 +792,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_66
       rect:
         serializedVersion: 2
@@ -648,6 +802,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_67
       rect:
         serializedVersion: 2
@@ -657,6 +812,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_68
       rect:
         serializedVersion: 2
@@ -666,6 +822,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_69
       rect:
         serializedVersion: 2
@@ -675,6 +832,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_70
       rect:
         serializedVersion: 2
@@ -684,6 +842,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_71
       rect:
         serializedVersion: 2
@@ -693,6 +852,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_72
       rect:
         serializedVersion: 2
@@ -702,6 +862,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_73
       rect:
         serializedVersion: 2
@@ -711,6 +872,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_74
       rect:
         serializedVersion: 2
@@ -720,6 +882,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_75
       rect:
         serializedVersion: 2
@@ -729,6 +892,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_76
       rect:
         serializedVersion: 2
@@ -738,6 +902,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_77
       rect:
         serializedVersion: 2
@@ -747,6 +912,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_78
       rect:
         serializedVersion: 2
@@ -756,6 +922,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_79
       rect:
         serializedVersion: 2
@@ -765,6 +932,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_80
       rect:
         serializedVersion: 2
@@ -774,6 +942,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_81
       rect:
         serializedVersion: 2
@@ -783,6 +952,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_82
       rect:
         serializedVersion: 2
@@ -792,6 +962,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_83
       rect:
         serializedVersion: 2
@@ -801,6 +972,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_84
       rect:
         serializedVersion: 2
@@ -810,6 +982,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: protector_85
       rect:
         serializedVersion: 2
@@ -819,5 +992,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

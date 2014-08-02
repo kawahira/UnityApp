@@ -1,6 +1,84 @@
 fileFormatVersion: 2
 guid: 9b3d57848c3c532459974399f09f8cfe
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: earrings_0
+    21300002: earrings_1
+    21300004: earrings_2
+    21300006: earrings_3
+    21300008: earrings_4
+    21300010: earrings_5
+    21300012: earrings_6
+    21300014: earrings_7
+    21300016: earrings_8
+    21300018: earrings_9
+    21300020: earrings_10
+    21300022: earrings_11
+    21300024: earrings_12
+    21300026: earrings_13
+    21300028: earrings_14
+    21300030: earrings_15
+    21300032: earrings_16
+    21300034: earrings_17
+    21300036: earrings_18
+    21300038: earrings_19
+    21300040: earrings_20
+    21300042: earrings_21
+    21300044: earrings_22
+    21300046: earrings_23
+    21300048: earrings_24
+    21300050: earrings_25
+    21300052: earrings_26
+    21300054: earrings_27
+    21300056: earrings_28
+    21300058: earrings_29
+    21300060: earrings_30
+    21300062: earrings_31
+    21300064: earrings_32
+    21300066: earrings_33
+    21300068: earrings_34
+    21300070: earrings_35
+    21300072: earrings_36
+    21300074: earrings_37
+    21300076: earrings_38
+    21300078: earrings_39
+    21300080: earrings_40
+    21300082: earrings_41
+    21300084: earrings_42
+    21300086: earrings_43
+    21300088: earrings_44
+    21300090: earrings_45
+    21300092: earrings_46
+    21300094: earrings_47
+    21300096: earrings_48
+    21300098: earrings_49
+    21300100: earrings_50
+    21300102: earrings_51
+    21300104: earrings_52
+    21300106: earrings_53
+    21300108: earrings_54
+    21300110: earrings_55
+    21300112: earrings_56
+    21300114: earrings_57
+    21300116: earrings_58
+    21300118: earrings_59
+    21300120: earrings_60
+    21300122: earrings_61
+    21300124: earrings_62
+    21300126: earrings_63
+    21300128: earrings_64
+    21300130: earrings_65
+    21300132: earrings_66
+    21300134: earrings_67
+    21300136: earrings_68
+    21300138: earrings_69
+    21300140: earrings_70
+    21300142: earrings_71
+    21300144: earrings_72
+    21300146: earrings_73
+    21300148: earrings_74
+    21300150: earrings_75
+    21300152: earrings_76
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +113,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +133,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_1
       rect:
         serializedVersion: 2
@@ -63,6 +143,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_2
       rect:
         serializedVersion: 2
@@ -72,6 +153,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_3
       rect:
         serializedVersion: 2
@@ -81,6 +163,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_4
       rect:
         serializedVersion: 2
@@ -90,6 +173,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_5
       rect:
         serializedVersion: 2
@@ -99,6 +183,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_6
       rect:
         serializedVersion: 2
@@ -108,6 +193,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_7
       rect:
         serializedVersion: 2
@@ -117,6 +203,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_8
       rect:
         serializedVersion: 2
@@ -126,6 +213,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_9
       rect:
         serializedVersion: 2
@@ -135,6 +223,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_10
       rect:
         serializedVersion: 2
@@ -144,6 +233,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_11
       rect:
         serializedVersion: 2
@@ -153,6 +243,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_12
       rect:
         serializedVersion: 2
@@ -162,6 +253,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_13
       rect:
         serializedVersion: 2
@@ -171,6 +263,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_14
       rect:
         serializedVersion: 2
@@ -180,6 +273,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_15
       rect:
         serializedVersion: 2
@@ -189,6 +283,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_16
       rect:
         serializedVersion: 2
@@ -198,6 +293,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_17
       rect:
         serializedVersion: 2
@@ -207,6 +303,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_18
       rect:
         serializedVersion: 2
@@ -216,6 +313,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_19
       rect:
         serializedVersion: 2
@@ -225,6 +323,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_20
       rect:
         serializedVersion: 2
@@ -234,6 +333,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_21
       rect:
         serializedVersion: 2
@@ -243,6 +343,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_22
       rect:
         serializedVersion: 2
@@ -252,6 +353,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_23
       rect:
         serializedVersion: 2
@@ -261,6 +363,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_24
       rect:
         serializedVersion: 2
@@ -270,6 +373,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_25
       rect:
         serializedVersion: 2
@@ -279,6 +383,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_26
       rect:
         serializedVersion: 2
@@ -288,6 +393,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_27
       rect:
         serializedVersion: 2
@@ -297,6 +403,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_28
       rect:
         serializedVersion: 2
@@ -306,6 +413,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_29
       rect:
         serializedVersion: 2
@@ -315,6 +423,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_30
       rect:
         serializedVersion: 2
@@ -324,6 +433,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_31
       rect:
         serializedVersion: 2
@@ -333,6 +443,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_32
       rect:
         serializedVersion: 2
@@ -342,6 +453,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_33
       rect:
         serializedVersion: 2
@@ -351,6 +463,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_34
       rect:
         serializedVersion: 2
@@ -360,6 +473,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_35
       rect:
         serializedVersion: 2
@@ -369,6 +483,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_36
       rect:
         serializedVersion: 2
@@ -378,6 +493,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_37
       rect:
         serializedVersion: 2
@@ -387,6 +503,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_38
       rect:
         serializedVersion: 2
@@ -396,6 +513,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_39
       rect:
         serializedVersion: 2
@@ -405,6 +523,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_40
       rect:
         serializedVersion: 2
@@ -414,6 +533,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_41
       rect:
         serializedVersion: 2
@@ -423,6 +543,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_42
       rect:
         serializedVersion: 2
@@ -432,6 +553,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_43
       rect:
         serializedVersion: 2
@@ -441,6 +563,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_44
       rect:
         serializedVersion: 2
@@ -450,6 +573,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_45
       rect:
         serializedVersion: 2
@@ -459,6 +583,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_46
       rect:
         serializedVersion: 2
@@ -468,6 +593,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_47
       rect:
         serializedVersion: 2
@@ -477,6 +603,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_48
       rect:
         serializedVersion: 2
@@ -486,6 +613,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_49
       rect:
         serializedVersion: 2
@@ -495,6 +623,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_50
       rect:
         serializedVersion: 2
@@ -504,6 +633,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_51
       rect:
         serializedVersion: 2
@@ -513,6 +643,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_52
       rect:
         serializedVersion: 2
@@ -522,6 +653,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_53
       rect:
         serializedVersion: 2
@@ -531,6 +663,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_54
       rect:
         serializedVersion: 2
@@ -540,6 +673,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_55
       rect:
         serializedVersion: 2
@@ -549,6 +683,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_56
       rect:
         serializedVersion: 2
@@ -558,6 +693,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_57
       rect:
         serializedVersion: 2
@@ -567,6 +703,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_58
       rect:
         serializedVersion: 2
@@ -576,6 +713,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_59
       rect:
         serializedVersion: 2
@@ -585,6 +723,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_60
       rect:
         serializedVersion: 2
@@ -594,6 +733,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_61
       rect:
         serializedVersion: 2
@@ -603,6 +743,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_62
       rect:
         serializedVersion: 2
@@ -612,6 +753,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_63
       rect:
         serializedVersion: 2
@@ -621,6 +763,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_64
       rect:
         serializedVersion: 2
@@ -630,6 +773,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_65
       rect:
         serializedVersion: 2
@@ -639,6 +783,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_66
       rect:
         serializedVersion: 2
@@ -648,6 +793,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_67
       rect:
         serializedVersion: 2
@@ -657,6 +803,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_68
       rect:
         serializedVersion: 2
@@ -666,6 +813,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_69
       rect:
         serializedVersion: 2
@@ -675,6 +823,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_70
       rect:
         serializedVersion: 2
@@ -684,6 +833,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_71
       rect:
         serializedVersion: 2
@@ -693,6 +843,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_72
       rect:
         serializedVersion: 2
@@ -702,6 +853,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_73
       rect:
         serializedVersion: 2
@@ -711,6 +863,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_74
       rect:
         serializedVersion: 2
@@ -720,6 +873,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_75
       rect:
         serializedVersion: 2
@@ -729,6 +883,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: earrings_76
       rect:
         serializedVersion: 2
@@ -738,5 +893,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

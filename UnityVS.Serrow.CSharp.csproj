@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D23FECA5-3891-D1A8-E9BD-B1BCA0A3F904}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.Serrow.CSharp.Plugins.csproj">
+      <Project>{ADDF7780-D8C0-6CB1-8254-D69C92292277}</Project>
+      <Name>UnityVS.Serrow.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Script\Asset\Block.cs" />
+    <Compile Include="Assets\Script\Asset\BlockList.cs" />
+    <Compile Include="Assets\Script\Asset\BlockMultiThread.cs" />
+    <Compile Include="Assets\Script\Asset\Bundle.cs" />
+    <Compile Include="Assets\Script\Asset\Text.cs" />
+    <Compile Include="Assets\Script\Common\AllocMem.cs" />
+    <Compile Include="Assets\Script\Common\Boot.cs" />
+    <Compile Include="Assets\Script\Common\DeltaTime.cs" />
+    <Compile Include="Assets\Script\Common\FileAssetBundle.cs" />
+    <Compile Include="Assets\Script\Common\FileBuffer.cs" />
+    <Compile Include="Assets\Script\Common\Flick.cs" />
+    <Compile Include="Assets\Script\Common\GetType.cs" />
+    <Compile Include="Assets\Script\Common\Pair.cs" />
+    <Compile Include="Assets\Script\Common\RandXorShift.cs" />
+    <Compile Include="Assets\Script\Common\ResourceAccess.cs" />
+    <Compile Include="Assets\Script\Common\Spline.cs" />
+    <Compile Include="Assets\Script\Game\Hero.cs" />
+    <Compile Include="Assets\Script\Game\ListItem.cs" />
+    <Compile Include="Assets\Script\Game\Mapchip.cs" />
+    <Compile Include="Assets\Script\Game\Resources.cs" />
+    <Compile Include="Assets\Script\Game\Sequence.cs" />
+    <Compile Include="Assets\Script\Game\SequenceInfo.cs" />
+    <Compile Include="Assets\Script\Scene\Boot.cs" />
+    <Compile Include="Assets\Script\Scene\Scene.cs" />
+    <Compile Include="Assets\Script\Scene\Title.cs" />
+    <Compile Include="Assets\Script\SerializeData\FileList.cs" />
+    <Compile Include="Assets\Script\SerializeData\LocalSaveData\Header.cs" />
+    <Compile Include="Assets\Script\SerializeData\LocalSaveData\Scene.cs" />
+    <Compile Include="Assets\Script\SerializeData\MapData\Header.cs" />
+    <Compile Include="Assets\Script\SerializeData\MapData\Layer.cs" />
+    <Compile Include="Assets\Script\SerializeData\MapData\Terrains.cs" />
+    <Compile Include="Assets\Script\SerializeData\MapData\Tilesets.cs" />
+    <Compile Include="Assets\Script\SerializeData\Scene.cs" />
+    <Compile Include="Assets\Script\SerializeData\Sequence.cs" />
+    <Compile Include="Assets\Script\SerializeData\Setting.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\AssertionComponent.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\AssertionComponentExt.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\AssertionException.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Assertions.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\ActionBase.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\BoolComparer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\ColliderComparer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\ComparerBase.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\FloatComparer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\GeneralComparer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\IntComparer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\IsRenderedByCamera.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\StringComparer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\TransformComparer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\ValueDoesNotChange.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\Vector2Comparer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\Vector3Comparer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\Vector4Comparer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Comparers\VectorComparerBase.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\PropertyResolver.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\ScriptSelector.cs" />
+    <Compile Include="Assets\UnityTestTools\Common\ITestResult.cs" />
+    <Compile Include="Assets\UnityTestTools\Common\ResultWriter\ResultSummarizer.cs" />
+    <Compile Include="Assets\UnityTestTools\Common\ResultWriter\StackTraceFilter.cs" />
+    <Compile Include="Assets\UnityTestTools\Common\ResultWriter\XmlResultWriter.cs" />
+    <Compile Include="Assets\UnityTestTools\Common\TestResultState.cs" />
+    <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\ITestRunnerCallback.cs" />
+    <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\IntegrationTest.cs" />
+    <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\TestComponent.cs" />
+    <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\TestResult.cs" />
+    <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\TestRunner.cs" />
+    <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\TestRunnerCallbackList.cs" />
+    <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestingAssets\CallTesting.cs" />
+    <None Include="Assets\Resources\Json\TestStage.txt" />
+    <None Include="Assets\UnityTestTools\changelog.txt" />
+    <None Include="Assets\UnityTestTools\LICENSE.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

@@ -1,6 +1,18 @@
 fileFormatVersion: 2
 guid: 86fcb495d25e99f418c60209fcd4eaf0
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: sensu_0
+    21300002: sensu_1
+    21300004: sensu_2
+    21300006: sensu_3
+    21300008: sensu_4
+    21300010: sensu_5
+    21300012: sensu_6
+    21300014: sensu_7
+    21300016: sensu_8
+    21300018: sensu_9
+    21300020: sensu_10
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +67,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: sensu_1
       rect:
         serializedVersion: 2
@@ -63,6 +77,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: sensu_2
       rect:
         serializedVersion: 2
@@ -72,6 +87,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: sensu_3
       rect:
         serializedVersion: 2
@@ -81,6 +97,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: sensu_4
       rect:
         serializedVersion: 2
@@ -90,6 +107,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: sensu_5
       rect:
         serializedVersion: 2
@@ -99,6 +117,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: sensu_6
       rect:
         serializedVersion: 2
@@ -108,6 +127,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: sensu_7
       rect:
         serializedVersion: 2
@@ -117,6 +137,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: sensu_8
       rect:
         serializedVersion: 2
@@ -126,6 +147,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: sensu_9
       rect:
         serializedVersion: 2
@@ -135,6 +157,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: sensu_10
       rect:
         serializedVersion: 2
@@ -144,5 +167,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

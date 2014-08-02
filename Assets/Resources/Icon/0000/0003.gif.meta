@@ -1,6 +1,23 @@
 fileFormatVersion: 2
 guid: ff3818f11f8c9294b8f5afea34277129
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: aube_0
+    21300002: aube_1
+    21300004: aube_2
+    21300006: aube_3
+    21300008: aube_4
+    21300010: aube_5
+    21300012: aube_6
+    21300014: aube_7
+    21300016: aube_8
+    21300018: aube_9
+    21300020: aube_10
+    21300022: aube_11
+    21300024: aube_12
+    21300026: aube_13
+    21300028: aube_14
+    21300030: aube_15
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +52,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +72,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_1
       rect:
         serializedVersion: 2
@@ -63,6 +82,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_2
       rect:
         serializedVersion: 2
@@ -72,6 +92,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_3
       rect:
         serializedVersion: 2
@@ -81,6 +102,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_4
       rect:
         serializedVersion: 2
@@ -90,6 +112,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_5
       rect:
         serializedVersion: 2
@@ -99,6 +122,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_6
       rect:
         serializedVersion: 2
@@ -108,6 +132,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_7
       rect:
         serializedVersion: 2
@@ -117,6 +142,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_8
       rect:
         serializedVersion: 2
@@ -126,6 +152,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_9
       rect:
         serializedVersion: 2
@@ -135,6 +162,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_10
       rect:
         serializedVersion: 2
@@ -144,6 +172,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_11
       rect:
         serializedVersion: 2
@@ -153,6 +182,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_12
       rect:
         serializedVersion: 2
@@ -162,6 +192,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_13
       rect:
         serializedVersion: 2
@@ -171,6 +202,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_14
       rect:
         serializedVersion: 2
@@ -180,6 +212,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: aube_15
       rect:
         serializedVersion: 2
@@ -189,5 +222,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

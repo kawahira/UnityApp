@@ -1,6 +1,25 @@
 fileFormatVersion: 2
 guid: a6c36c9f1bf2d8849a7cbbc3df03308a
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: throw_0
+    21300002: throw_1
+    21300004: throw_2
+    21300006: throw_3
+    21300008: throw_4
+    21300010: throw_5
+    21300012: throw_6
+    21300014: throw_7
+    21300016: throw_8
+    21300018: throw_9
+    21300020: throw_10
+    21300022: throw_11
+    21300024: throw_12
+    21300026: throw_13
+    21300028: throw_14
+    21300030: throw_15
+    21300032: throw_16
+    21300034: throw_17
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +74,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_1
       rect:
         serializedVersion: 2
@@ -63,6 +84,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_2
       rect:
         serializedVersion: 2
@@ -72,6 +94,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_3
       rect:
         serializedVersion: 2
@@ -81,6 +104,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_4
       rect:
         serializedVersion: 2
@@ -90,6 +114,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_5
       rect:
         serializedVersion: 2
@@ -99,6 +124,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_6
       rect:
         serializedVersion: 2
@@ -108,6 +134,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_7
       rect:
         serializedVersion: 2
@@ -117,6 +144,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_8
       rect:
         serializedVersion: 2
@@ -126,6 +154,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_9
       rect:
         serializedVersion: 2
@@ -135,6 +164,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_10
       rect:
         serializedVersion: 2
@@ -144,6 +174,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_11
       rect:
         serializedVersion: 2
@@ -153,6 +184,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_12
       rect:
         serializedVersion: 2
@@ -162,6 +194,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_13
       rect:
         serializedVersion: 2
@@ -171,6 +204,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_14
       rect:
         serializedVersion: 2
@@ -180,6 +214,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_15
       rect:
         serializedVersion: 2
@@ -189,6 +224,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_16
       rect:
         serializedVersion: 2
@@ -198,6 +234,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: throw_17
       rect:
         serializedVersion: 2
@@ -207,5 +244,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

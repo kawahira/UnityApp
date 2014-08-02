@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0CC6EC4A-2D24-D50A-EC2E-76970B1B2724}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="NSubstitute">
+      <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NSubstitute\NSubstitute.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core">
+      <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\nunit.core.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core.interfaces">
+      <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\nunit.core.interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityVS.VersionSpecific">
+      <HintPath>Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.Serrow.CSharp.csproj">
+      <Project>{D23FECA5-3891-D1A8-E9BD-B1BCA0A3F904}</Project>
+      <Name>UnityVS.Serrow.CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityVS.Serrow.CSharp.Plugins.csproj">
+      <Project>{ADDF7780-D8C0-6CB1-8254-D69C92292277}</Project>
+      <Name>UnityVS.Serrow.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Script\Editor\Asset.cs" />
+    <Compile Include="Assets\Script\Editor\Build.cs" />
+    <Compile Include="Assets\Script\Editor\BuildMenu.cs" />
+    <Compile Include="Assets\Script\Editor\Test\RandXorShiftTest.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Editor\AssertionComponentEditor.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Editor\AssertionExplorerWindow.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Editor\AssertionListRenderer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Editor\DropDownControl.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Editor\GroupByComparerRenderer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Editor\GroupByExecutionMethodRenderer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Editor\GroupByGORenderer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Editor\GroupByNothingRenderer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Editor\GroupByTestsRenderer.cs" />
+    <Compile Include="Assets\UnityTestTools\Assertions\Editor\PropertyPathSelector.cs" />
+    <Compile Include="Assets\UnityTestTools\Common\Editor\Icons.cs" />
+    <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\Editor\BatchTestRunner.cs" />
+    <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\Editor\IntegrationTestRunnerRenderer.cs" />
+    <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\Editor\IntegrationTestsRunnerWindow.cs" />
+    <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\Editor\TestComponentEditor.cs" />
+    <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\Editor\TestManager.cs" />
+    <Compile Include="Assets\UnityTestTools\UnitTesting\Editor\TestRunner\GroupedByHierarchyRenderer.cs" />
+    <Compile Include="Assets\UnityTestTools\UnitTesting\Editor\TestRunner\GuiHelper.cs" />
+    <Compile Include="Assets\UnityTestTools\UnitTesting\Editor\TestRunner\ITestRunnerCallback.cs" />
+    <Compile Include="Assets\UnityTestTools\UnitTesting\Editor\TestRunner\IUnitTestEngine.cs" />
+    <Compile Include="Assets\UnityTestTools\UnitTesting\Editor\TestRunner\NUnitExtensions.cs" />
+    <Compile Include="Assets\UnityTestTools\UnitTesting\Editor\TestRunner\NUnitTestEngine.cs" />
+    <Compile Include="Assets\UnityTestTools\UnitTesting\Editor\TestRunner\TestRunnerCallbackList.cs" />
+    <Compile Include="Assets\UnityTestTools\UnitTesting\Editor\TestRunner\UnitTestInfo.cs" />
+    <Compile Include="Assets\UnityTestTools\UnitTesting\Editor\TestRunner\UnitTestResult.cs" />
+    <Compile Include="Assets\UnityTestTools\UnitTesting\Editor\TestRunner\UnitTestView.cs" />
+    <Compile Include="Assets\UnityTestTools\UnitTesting\Editor\UnityUnitTest.cs" />
+    <None Include="Assets\Resources\Json\TestStage.txt" />
+    <None Include="Assets\UnityTestTools\changelog.txt" />
+    <None Include="Assets\UnityTestTools\LICENSE.txt" />
+    <None Include="Assets\UnityTestTools\UnitTesting\Editor\NSubstitute\NSubstitute.dll" />
+    <None Include="Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\Mono.Cecil.dll" />
+    <None Include="Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\Mono.Cecil.Mdb.dll" />
+    <None Include="Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\nunit.core.dll" />
+    <None Include="Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\nunit.core.interfaces.dll" />
+    <None Include="Assets\UnityTestTools\UnitTesting\Editor\NUnit\Libs\nunit.framework.dll" />
+    <None Include="Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll" />
+    <None Include="Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll" />
+    <None Include="Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

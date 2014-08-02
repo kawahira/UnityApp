@@ -1,6 +1,79 @@
 fileFormatVersion: 2
 guid: f268459c434303f47893a6a84629720c
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: hat_0
+    21300002: hat_1
+    21300004: hat_2
+    21300006: hat_3
+    21300008: hat_4
+    21300010: hat_5
+    21300012: hat_6
+    21300014: hat_7
+    21300016: hat_8
+    21300018: hat_9
+    21300020: hat_10
+    21300022: hat_11
+    21300024: hat_12
+    21300026: hat_13
+    21300028: hat_14
+    21300030: hat_15
+    21300032: hat_16
+    21300034: hat_17
+    21300036: hat_18
+    21300038: hat_19
+    21300040: hat_20
+    21300042: hat_21
+    21300044: hat_22
+    21300046: hat_23
+    21300048: hat_24
+    21300050: hat_25
+    21300052: hat_26
+    21300054: hat_27
+    21300056: hat_28
+    21300058: hat_29
+    21300060: hat_30
+    21300062: hat_31
+    21300064: hat_32
+    21300066: hat_33
+    21300068: hat_34
+    21300070: hat_35
+    21300072: hat_36
+    21300074: hat_37
+    21300076: hat_38
+    21300078: hat_39
+    21300080: hat_40
+    21300082: hat_41
+    21300084: hat_42
+    21300086: hat_43
+    21300088: hat_44
+    21300090: hat_45
+    21300092: hat_46
+    21300094: hat_47
+    21300096: hat_48
+    21300098: hat_49
+    21300100: hat_50
+    21300102: hat_51
+    21300104: hat_52
+    21300106: hat_53
+    21300108: hat_54
+    21300110: hat_55
+    21300112: hat_56
+    21300114: hat_57
+    21300116: hat_58
+    21300118: hat_59
+    21300120: hat_60
+    21300122: hat_61
+    21300124: hat_62
+    21300126: hat_63
+    21300128: hat_64
+    21300130: hat_65
+    21300132: hat_66
+    21300134: hat_67
+    21300136: hat_68
+    21300138: hat_69
+    21300140: hat_70
+    21300142: hat_71
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +108,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +128,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_1
       rect:
         serializedVersion: 2
@@ -63,6 +138,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_2
       rect:
         serializedVersion: 2
@@ -72,6 +148,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_3
       rect:
         serializedVersion: 2
@@ -81,6 +158,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_4
       rect:
         serializedVersion: 2
@@ -90,6 +168,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_5
       rect:
         serializedVersion: 2
@@ -99,6 +178,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_6
       rect:
         serializedVersion: 2
@@ -108,6 +188,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_7
       rect:
         serializedVersion: 2
@@ -117,6 +198,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_8
       rect:
         serializedVersion: 2
@@ -126,6 +208,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_9
       rect:
         serializedVersion: 2
@@ -135,6 +218,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_10
       rect:
         serializedVersion: 2
@@ -144,6 +228,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_11
       rect:
         serializedVersion: 2
@@ -153,6 +238,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_12
       rect:
         serializedVersion: 2
@@ -162,6 +248,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_13
       rect:
         serializedVersion: 2
@@ -171,6 +258,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_14
       rect:
         serializedVersion: 2
@@ -180,6 +268,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_15
       rect:
         serializedVersion: 2
@@ -189,6 +278,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_16
       rect:
         serializedVersion: 2
@@ -198,6 +288,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_17
       rect:
         serializedVersion: 2
@@ -207,6 +298,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_18
       rect:
         serializedVersion: 2
@@ -216,6 +308,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_19
       rect:
         serializedVersion: 2
@@ -225,6 +318,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_20
       rect:
         serializedVersion: 2
@@ -234,6 +328,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_21
       rect:
         serializedVersion: 2
@@ -243,6 +338,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_22
       rect:
         serializedVersion: 2
@@ -252,6 +348,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_23
       rect:
         serializedVersion: 2
@@ -261,6 +358,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_24
       rect:
         serializedVersion: 2
@@ -270,6 +368,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_25
       rect:
         serializedVersion: 2
@@ -279,6 +378,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_26
       rect:
         serializedVersion: 2
@@ -288,6 +388,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_27
       rect:
         serializedVersion: 2
@@ -297,6 +398,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_28
       rect:
         serializedVersion: 2
@@ -306,6 +408,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_29
       rect:
         serializedVersion: 2
@@ -315,6 +418,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_30
       rect:
         serializedVersion: 2
@@ -324,6 +428,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_31
       rect:
         serializedVersion: 2
@@ -333,6 +438,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_32
       rect:
         serializedVersion: 2
@@ -342,6 +448,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_33
       rect:
         serializedVersion: 2
@@ -351,6 +458,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_34
       rect:
         serializedVersion: 2
@@ -360,6 +468,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_35
       rect:
         serializedVersion: 2
@@ -369,6 +478,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_36
       rect:
         serializedVersion: 2
@@ -378,6 +488,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_37
       rect:
         serializedVersion: 2
@@ -387,6 +498,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_38
       rect:
         serializedVersion: 2
@@ -396,6 +508,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_39
       rect:
         serializedVersion: 2
@@ -405,6 +518,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_40
       rect:
         serializedVersion: 2
@@ -414,6 +528,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_41
       rect:
         serializedVersion: 2
@@ -423,6 +538,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_42
       rect:
         serializedVersion: 2
@@ -432,6 +548,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_43
       rect:
         serializedVersion: 2
@@ -441,6 +558,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_44
       rect:
         serializedVersion: 2
@@ -450,6 +568,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_45
       rect:
         serializedVersion: 2
@@ -459,6 +578,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_46
       rect:
         serializedVersion: 2
@@ -468,6 +588,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_47
       rect:
         serializedVersion: 2
@@ -477,6 +598,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_48
       rect:
         serializedVersion: 2
@@ -486,6 +608,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_49
       rect:
         serializedVersion: 2
@@ -495,6 +618,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_50
       rect:
         serializedVersion: 2
@@ -504,6 +628,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_51
       rect:
         serializedVersion: 2
@@ -513,6 +638,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_52
       rect:
         serializedVersion: 2
@@ -522,6 +648,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_53
       rect:
         serializedVersion: 2
@@ -531,6 +658,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_54
       rect:
         serializedVersion: 2
@@ -540,6 +668,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_55
       rect:
         serializedVersion: 2
@@ -549,6 +678,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_56
       rect:
         serializedVersion: 2
@@ -558,6 +688,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_57
       rect:
         serializedVersion: 2
@@ -567,6 +698,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_58
       rect:
         serializedVersion: 2
@@ -576,6 +708,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_59
       rect:
         serializedVersion: 2
@@ -585,6 +718,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_60
       rect:
         serializedVersion: 2
@@ -594,6 +728,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_61
       rect:
         serializedVersion: 2
@@ -603,6 +738,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_62
       rect:
         serializedVersion: 2
@@ -612,6 +748,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_63
       rect:
         serializedVersion: 2
@@ -621,6 +758,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_64
       rect:
         serializedVersion: 2
@@ -630,6 +768,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_65
       rect:
         serializedVersion: 2
@@ -639,6 +778,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_66
       rect:
         serializedVersion: 2
@@ -648,6 +788,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_67
       rect:
         serializedVersion: 2
@@ -657,6 +798,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_68
       rect:
         serializedVersion: 2
@@ -666,6 +808,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_69
       rect:
         serializedVersion: 2
@@ -675,6 +818,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_70
       rect:
         serializedVersion: 2
@@ -684,6 +828,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: hat_71
       rect:
         serializedVersion: 2
@@ -693,5 +838,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

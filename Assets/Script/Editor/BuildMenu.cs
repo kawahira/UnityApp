@@ -406,25 +406,25 @@ public class buildMenu
 		[UnityEditor.MenuItem (kDevelopment + kBlackBerryDefault)]
 		public static void BlackBerry_Development ()
 		{
-				Build.Project (BuildTarget.BB10, optDevelop, kDevelopment + kBlackBerryDefault + productName + kExtensionBlackBerry);
+				Build.Project (BuildTarget.BlackBerry, optDevelop, kDevelopment + kBlackBerryDefault + productName + kExtensionBlackBerry);
 		}
 
 		[UnityEditor.MenuItem (kDevelopment + kBlackBerryDefault + kScriptDebug)]
 		public static void BlackBerry_Development_ScriptDebug ()
 		{
-				Build.Project (BuildTarget.BB10, optDevelopScriptDebug, kDevelopment + kBlackBerryDefault + kScriptDebug + productName + kExtensionBlackBerry);
+            Build.Project(BuildTarget.BlackBerry, optDevelopScriptDebug, kDevelopment + kBlackBerryDefault + kScriptDebug + productName + kExtensionBlackBerry);
 		}
 
 		[UnityEditor.MenuItem (kDevelopment + kBlackBerryDefault + kAutoProfiler)]
 		public static void BlackBerry_Development_AutoProfiler ()
 		{
-				Build.Project (BuildTarget.BB10, optDevelopAutoProfiler, kDevelopment + kBlackBerryDefault + kAutoProfiler + productName + kExtensionBlackBerry);
+            Build.Project(BuildTarget.BlackBerry, optDevelopAutoProfiler, kDevelopment + kBlackBerryDefault + kAutoProfiler + productName + kExtensionBlackBerry);
 		}
 
 		[UnityEditor.MenuItem (kRelease + kBlackBerryDefault)]
 		public static void BlackBerry_Release ()
 		{
-				Build.Project (BuildTarget.BB10, optRelease, kRelease + kBlackBerryDefault + productName + kExtensionBlackBerry);
+            Build.Project(BuildTarget.BlackBerry, optRelease, kRelease + kBlackBerryDefault + productName + kExtensionBlackBerry);
 		}
 
 		[UnityEditor.MenuItem (kDevelopment + kMetroDefault)]

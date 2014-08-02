@@ -1,6 +1,39 @@
 fileFormatVersion: 2
 guid: 4d63a68b55056d04a90bc3cfef14ff5e
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: clothes_0
+    21300002: clothes_1
+    21300004: clothes_2
+    21300006: clothes_3
+    21300008: clothes_4
+    21300010: clothes_5
+    21300012: clothes_6
+    21300014: clothes_7
+    21300016: clothes_8
+    21300018: clothes_9
+    21300020: clothes_10
+    21300022: clothes_11
+    21300024: clothes_12
+    21300026: clothes_13
+    21300028: clothes_14
+    21300030: clothes_15
+    21300032: clothes_16
+    21300034: clothes_17
+    21300036: clothes_18
+    21300038: clothes_19
+    21300040: clothes_20
+    21300042: clothes_21
+    21300044: clothes_22
+    21300046: clothes_23
+    21300048: clothes_24
+    21300050: clothes_25
+    21300052: clothes_26
+    21300054: clothes_27
+    21300056: clothes_28
+    21300058: clothes_29
+    21300060: clothes_30
+    21300062: clothes_31
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +68,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +88,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_1
       rect:
         serializedVersion: 2
@@ -63,6 +98,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_2
       rect:
         serializedVersion: 2
@@ -72,6 +108,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_3
       rect:
         serializedVersion: 2
@@ -81,6 +118,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_4
       rect:
         serializedVersion: 2
@@ -90,6 +128,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_5
       rect:
         serializedVersion: 2
@@ -99,6 +138,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_6
       rect:
         serializedVersion: 2
@@ -108,6 +148,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_7
       rect:
         serializedVersion: 2
@@ -117,6 +158,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_8
       rect:
         serializedVersion: 2
@@ -126,6 +168,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_9
       rect:
         serializedVersion: 2
@@ -135,6 +178,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_10
       rect:
         serializedVersion: 2
@@ -144,6 +188,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_11
       rect:
         serializedVersion: 2
@@ -153,6 +198,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_12
       rect:
         serializedVersion: 2
@@ -162,6 +208,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_13
       rect:
         serializedVersion: 2
@@ -171,6 +218,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_14
       rect:
         serializedVersion: 2
@@ -180,6 +228,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_15
       rect:
         serializedVersion: 2
@@ -189,6 +238,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_16
       rect:
         serializedVersion: 2
@@ -198,6 +248,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_17
       rect:
         serializedVersion: 2
@@ -207,6 +258,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_18
       rect:
         serializedVersion: 2
@@ -216,6 +268,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_19
       rect:
         serializedVersion: 2
@@ -225,6 +278,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_20
       rect:
         serializedVersion: 2
@@ -234,6 +288,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_21
       rect:
         serializedVersion: 2
@@ -243,6 +298,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_22
       rect:
         serializedVersion: 2
@@ -252,6 +308,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_23
       rect:
         serializedVersion: 2
@@ -261,6 +318,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_24
       rect:
         serializedVersion: 2
@@ -270,6 +328,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_25
       rect:
         serializedVersion: 2
@@ -279,6 +338,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_26
       rect:
         serializedVersion: 2
@@ -288,6 +348,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_27
       rect:
         serializedVersion: 2
@@ -297,6 +358,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_28
       rect:
         serializedVersion: 2
@@ -306,6 +368,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_29
       rect:
         serializedVersion: 2
@@ -315,6 +378,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_30
       rect:
         serializedVersion: 2
@@ -324,6 +388,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clothes_31
       rect:
         serializedVersion: 2
@@ -333,5 +398,6 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
