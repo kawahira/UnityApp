@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Hero : MonoBehaviour
 {
-		[SerializeField] public Vector2 pos;
+
+    [SerializeField] public Vector2 pos;
 		[SerializeField] public Vector2 posPrev;
 		[SerializeField] public Vector2 accel;
 		[SerializeField] public Vector2 maxSpeed;

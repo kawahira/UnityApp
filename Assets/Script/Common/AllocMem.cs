@@ -5,8 +5,10 @@ using UnityEngine;
 
 [ExecuteInEditMode ()] // 編集中も処理を実行可能
 public class AllocMem : MonoBehaviour {
- 
-	public bool show = true;
+
+    [SerializeField]
+    public GUISkin skin;
+    public bool show = true;
 	public bool showFPS = false;
 	public bool showInEditor = false;
 	public void Start () {
@@ -18,6 +20,7 @@ public class AllocMem : MonoBehaviour {
 		if (!show || (!Application.isPlaying && !showInEditor)) {
 			return;
 		}
+        GUI.skin = skin;
  
 		int collCount = System.GC.CollectionCount (0);
  
@@ -79,7 +82,7 @@ public class AllocMem : MonoBehaviour {
 		}
  
 		GUI.Box (new Rect (5,5,310,100+(showFPS ? 16 : 0)),string.Empty);
-		GUI.Label (new Rect (10,5,1000,200),text.ToString ());
+        GUI.Label(new Rect(10, 5, 310, 100 + (showFPS ? 16 : 0)), text.ToString());
 	}
  
 	private float lastCollect = 0;

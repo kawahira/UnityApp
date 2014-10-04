@@ -22,7 +22,7 @@ public class Mapchip : MonoBehaviour
 //				int index = i+j+1;
 //				MapSpritePrefab.transform.position.Set(i*mapchipWidth, j*mapchipHeight,0.0f);
 								Instantiate (MapSpritePrefab, new Vector3 (-offsetX + ((float)(mapchipWidth * i) / 100.0f), offsetY + ((float)((mapchipHeight * j) * -1.0f) / 100.0f), 0.0f), Quaternion.identity);
-						}
+ 						}
 				}
 		}
 }

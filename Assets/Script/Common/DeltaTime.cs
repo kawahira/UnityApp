@@ -26,13 +26,13 @@ public class DeltaTime
 //		private int targetFrameRate;
 //		private float delta;
 		private float scale = 1.0f;
-		private float base60FrameDelta = 1.0f / 60.0f;
+		private float base60FrameDelta = 60.0f;
 
 		/// <summary>
 		/// スケール値 </summary>
 		public float GetScale ()
 		{
-				return (Time.deltaTime / base60FrameDelta) * scale;
+				return (Time.deltaTime * base60FrameDelta) * scale;
 		}
 
 		/// <summary>
@@ -41,4 +41,8 @@ public class DeltaTime
 		{
 				return Time.deltaTime;
 		}
+	public float GetFrame ()
+	{
+		return Time.deltaTime * base60FrameDelta;
+	}
 }
